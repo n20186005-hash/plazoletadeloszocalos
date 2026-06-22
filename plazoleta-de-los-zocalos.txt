@@ -1,0 +1,163 @@
+
+
+1. 国家 / 地区 * Country/Region *
+中文：哥伦比亚
+English：Colombia
+2. 地址 * Address *
+中文：洛斯索卡洛小广场，卡拉 28a 道 302 号，门牌号 30-68
+English：Plazoleta de Los Zócalos, a 30-68, Cra. 28a ##302
+3. 地址 2 Address 2
+中文：无补充信息，留空
+English：Leave blank, no extra info
+4. 城市 * City *
+中文：瓜塔佩
+English：Guatapé
+5. 省 / 自治区 / 直辖市 * State/Province *
+中文：安蒂奥基亚省
+English：Antioquia
+6. 邮政编码 * Postal Code *
+通用标准邮编：053840
+中文邮编说明：瓜塔佩全域通用编码 053840
+English Postal Code：053840
+
+
+
+
+
+
+
+
+哥伦比亚沃佩斯省	Plazoleta de Los Zócalos
+
+Plazoleta de Los Zócalos
+4.8(15,767)
+公园
+
+
+
+a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, 哥伦比亚
++573225328616
+6RMQ+GP 瓜塔佩 哥伦比亚安蒂奥基亚省
+
+https://maps.app.goo.gl/sR2JPeqT844vKHFr8
+
+
+以上单景点买.com域名推荐
+
+
+
+
+
+
+
+
+
+
+update、rename_ 名称的所有文件检查并删除了包含非本景点错误信息的旧更新脚本与文本 通过检索，发现在根目录下存在多个 .js 脚本和 .txt 文本，其中硬编码了之前站点的旧信息
+
+我们网站是
+
+检查下有没有错误
+
+
+检查一下信息和景点是否匹配修正成错误并给出建议让网站更像一个专业的景点落地页
+
+
+需要这个景点五个官方的友情链接 直接给我名称 和链接要文本格式 
+
+这个景点五个旅行攻略网站
+
+
+
+
+彩绘特色小公园
+
+
+
+你正在用（Next.js开发）
+为一个新景点【 Plazoleta de Los Zócalos 】构建静态/Next.js 单页指南网站。
+页面只需要支持中文、英文、西班牙文、语言
+
+
+
+plazoleta-de-los-zocalos
+
+哥伦比亚沃佩斯省	Plazoleta de Los Zócalos
+
+Plazoleta de Los Zócalos
+4.8(15,767)
+公园
+
+a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, 哥伦比亚
++573225328616
+6RMQ+GP 瓜塔佩 哥伦比亚安蒂奥基亚省
+
+https://maps.app.goo.gl/sR2JPeqT844vKHFr8
+
+营业时间
+星期一
+10:00–00:00
+星期二
+00:00–07:30
+10:00–19:30
+星期三
+10:00–19:00
+星期四
+09:00–20:30
+星期五
+09:00–19:30
+星期六
+10:00–20:30
+星期日
+09:00–20:00
+
+
+
+首屏背景图要引用以下
+C:\Users\Administrator\Documents\GitHub\哥伦比亚\plazoleta-de-los-zocalos\public\gallery\plazoleta-de-los-zocalos (26).jpg
+
+删除原先友情链接，新增以下友情链接
+
+瓜塔佩市政府官方网站 (Alcaldía de Guatapé)
+https://www.municipiodeguatape.gov.co/
+
+安蒂奥基亚省官方旅游平台 (Antioquia es Mágica)
+https://turismoantioquia.travel/
+
+安蒂奥基亚省旅游局官方网站 (Secretaría de Turismo de Antioquia)
+https://secretaria.turismoantioquia.travel/
+
+哥伦比亚国家旅游基金会 (FONTUR Colombia)
+https://fontur.com.co/
+
+哥伦比亚官方旅游门户网站 (Colombia Travel)
+https://colombia.travel/es
+
+
+
+在Google地图上查看位置都跳转为 https://maps.app.goo.gl/sR2JPeqT844vKHFr8
+页面一共四个链接每一个都需要修改
+	
+照片画廊
+精彩照片
+检查照片名称是否正确并修正
+
+首屏谷歌地图位置跳转为 https://maps.app.goo.gl/sR2JPeqT844vKHFr8
+
+照片画廊
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/sR2JPeqT844vKHFr8
+
+游客评价
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/sR2JPeqT844vKHFr8
+地图位置
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/sR2JPeqT844vKHFr8
+
+首屏右侧切换中文的时候 网站没转为/zh
+
+生成一个文件忽略不需要上传的文件
+
+
+参考以下内容给我们网站继续完善网页内容，记住我们是个非盈利科普网站不要带商业性质的推荐内容
+https://wanderlog.com/place/details/440448/plazoleta-de-los-z%C3%B3calos
+
+
