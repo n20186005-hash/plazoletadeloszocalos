@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "Plazoleta de Los Zócalos | Plaza Cultural en Guatapé, Colombia",
+    "description": "Explora la Plazoleta de Los Zócalos, una plaza cultural en Guatapé, Antioquia, Colombia, y experimenta las tradiciones locales y la vida comunitaria."
+  },
+  "header": {
+    "siteName": "Plazoleta de Los Zócalos",
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Plazoleta de Los Zócalos",
+    "subtitle": "El Corazón Cultural de Guatapé, Experimenta la Vida Comunitaria Colombiana",
+    "rating": "4.8",
+    "reviewCount": "15,767",
+    "hours": "Plaza Cultural / Espacio Público / Lugar Comunitario",
+    "openMaps": "Ver Ubicación"
+  },
+  "intro": {
+    "title": "Explora la Plazoleta de Los Zócalos",
+    "description": "La Plazoleta de Los Zócalos es una plaza cultural ubicada en Guatapé, Antioquia, Colombia. Como un espacio público importante para la comunidad local, sirve como un lugar para actividades sociales diarias, eventos culturales y reuniones festivas.\n\nGuatapé es un famoso pueblo turístico en Colombia, conocido por sus coloridos zócalos (pinturas decorativas coloridas en la parte inferior de las fachadas de los edificios). La Plazoleta de Los Zócalos, como una plaza pública en el pueblo, es un lugar ideal para experimentar la cultura local y la vida comunitaria.",
+    "visitGuide": {
+      "title": "Consejos de Visita",
+      "items": [
+        "🌞 Tour Matutino: Comenzar desde la Plaza Principal de Guatapé ➔ Caminar a la Plazoleta de Los Zócalos ➔ Admirar las decoraciones arquitectónicas locales",
+        "🌙 Experiencia Cultural Nocturna: Explorar alrededor de la plaza ➔ Probar la cocina local ➔ Experimentar la vida comunitaria",
+        "🎉 Eventos Festivos: Si coincide con festividades locales, puedes experimentar música y danza tradicional en la plaza"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "🏛️ Plaza Cultural: Un importante espacio de reunión pública y eventos culturales para la comunidad local en Guatapé.",
+        "🎨 Arte Zócalos: Los edificios alrededor de la plaza muestran las icónicas decoraciones coloridas de fachadas de Guatapé.",
+        "👥 Vida Comunitaria: Experimenta las actividades diarias y sociales de los residentes locales, y la auténtica vida de los pueblos colombianos.",
+        "📸 Paraíso Fotográfico: La plaza y las decoraciones zócalos circundantes son temas ideales para los entusiastas de la fotografía."
+      ]
+    }
+  },
+  "route": {
+    "title": "Ruta de Visita",
+    "overview": "La ruta recomendada para explorar la Plazoleta de Los Zócalos:",
+    "steps": [
+      "Comience desde la Plaza Principal de Guatapé (Plaza de Zocalos) y camine por las calles coloridas.",
+      "Diríjase a la Plazoleta de Los Zócalos, admire las decoraciones arquitectónicas y las escenas de vida local alrededor de la plaza.",
+      "Descanse en cafés o restaurantes cerca de la plaza y pruebe la cocina local.",
+      "Continúe explorando otras atracciones en Guatapé, como La Piedra del Peñol o el Embalse de Guatapé."
+    ],
+    "supplementsTitle": "Consejos Adicionales de Visita",
+    "supplements": [
+      "Use zapatos cómodos para caminar por las calles empedradas del pueblo.",
+      "Guatapé tiene un clima cálido, se recomienda traer protección solar y agua.",
+      "El mejor momento para visitar es por la mañana o por la tarde, para evitar el calor del mediodía y tomar mejores fotos."
+    ]
+  },
+  "knowledge": {
+    "title": "Descubre el Encanto de la Plazoleta de Los Zócalos",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Historia y Cultura",
+        "content": "Los Zócalos son símbolos culturales únicos de Guatapé, que se refieren a las pinturas decorativas coloridas en la parte inferior de las fachadas de los edificios. Esta tradición comenzó en el siglo XX y ahora se ha convertido en una característica icónica de Guatapé. La Plazoleta de Los Zócalos, como una plaza pública, lleva la función de exhibición de esta tradición cultural."
+      },
+      {
+        "id": "community",
+        "title": "Función Comunitaria",
+        "content": "Como una plaza pública, este no es solo un atractivo turístico, sino también un lugar importante para la socialización diaria de los residentes locales, eventos culturales y reuniones festivas. La plaza encarna la vitalidad y calidez de la vida comunitaria en los pueblos colombianos."
+      },
+      {
+        "id": "architecture",
+        "title": "Arquitectura y Arte",
+        "content": "Los edificios alrededor de la plaza muestran el arte decorativo zócalos característico de Guatapé. Cada pintura decorativa cuenta historias y tradiciones locales, reflejando la identidad cultural de los residentes de la comunidad."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Datos Rápidos",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Plazoleta de Los Zócalos",
+    "type": "Tipo de Atracción",
+    "typeValue": "Plaza Cultural / Espacio Público / Lugar Comunitario",
+    "country": "País",
+    "countryValue": "Colombia",
+    "city": "Ciudad",
+    "cityValue": "Guatapé, Antioquia",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, Colombia",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "6RMQ+GP Guatapé, Antioquia, Colombia",
+    "phone": "Teléfono",
+    "phoneValue": "+57 322 532 8616",
+    "petFriendly": "Mascotas permitidas",
+    "petFriendlyValue": "Plaza pública, se permiten mascotas",
+    "tickets": "Entradas",
+    "ticketsValue": "Entrada gratuita"
+  },
+  "hours": {
+    "title": "Horarios y Consejos para Visitantes",
+    "outdoor": "Horario de Apertura",
+    "outdoorTime": "Abierto las 24 horas (Plaza Pública)",
+    "lighthouse": "Mejor Momento de Visita",
+    "summer": "Mañana o Tarde",
+    "summerTime": "Iluminación suave, ideal para fotografía y caminatas",
+    "winter": "Destacados",
+    "winterTime": "Arte decorativo zócalos, vida comunitaria, fotografía arquitectónica",
+    "warning": "💡 Consejo de Expertos Locales",
+    "warningTime": "La mañana es el mejor momento para ver las actividades diarias de los residentes locales, y la tarde ofrece hermosas vistas del atardecer. ¡Recuerde traer su cámara para capturar los coloridos zócalos!",
+    "tip": "Hay muchos puestos de comida local y cafés alrededor de la plaza, donde puede probar auténtica cocina colombiana."
+  },
+  "tickets": {
+    "title": "Información Importante",
+    "outdoor": "Tarifa de Entrada",
+    "outdoorPrice": "Entrada gratuita (Plaza Pública)",
+    "lighthouse": "Información de Transporte",
+    "adults": "Desde Medellín",
+    "adultsPrice": "Tomar un bus aprox. 2 horas",
+    "students": "Duración Recomendada de Visita",
+    "studentsPrice": "1-2 horas",
+    "card": "Atracciones Cercanas",
+    "cardPrice": "Plaza Principal de Guatapé, La Piedra del Peñol, Embalse de Guatapé. 👉 [Ir a Guatapé]",
+    "officialNotice": "Para obtener las últimas actualizaciones, consulte el",
+    "officialNoticeLinkLabel": "Sitio Web Oficial de la Alcaldía de Guatapé",
+    "officialNoticeLink": "https://www.municipiodeguatape.gov.co/"
+  },
+  "transport": {
+    "title": "Transporte",
+    "airport": "Desde el Aeropuerto",
+    "airportDesc": "Desde el aeropuerto más cercano (Aeropuerto Internacional José María Córdova, cerca de Medellín), necesita primero llegar a Medellín, luego tomar un bus a Guatapé.",
+    "selfDrive": "En Coche",
+    "selfDriveDesc": "Desde Medellín, siga el camino claramente marcado por aproximadamente 2 horas para llegar a Guatapé. La plaza está ubicada en el área del centro del pueblo.",
+    "bus": "Transporte Público",
+    "busDesc": "Tomar un bus desde el Terminal del Norte de Medellín a Guatapé es la opción de transporte más popular, con salidas frecuentes.",
+    "intercity": "Dentro del Pueblo",
+    "intercityDesc": "La plaza está ubicada en el centro de Guatapé, a poca distancia a pie desde la plaza principal.",
+    "cycling": "Otras Opciones",
+    "cyclingDesc": "Puede alquilar una bicicleta en el pueblo o caminar para explorar y apreciar mejor el arte decorativo zócalos.",
+    "tips": "Consejos de Viaje",
+    "tipsDesc": "Los buses salen con frecuencia desde Medellín. Se recomienda salir temprano para aprovechar al máximo su tiempo en Guatapé."
+  },
+  "gallery": {
+    "title": "Fotos Impresionantes",
+    "subtitle": "Sienta el Encanto Cultural de Guatapé, Colombia",
+    "captions": [
+      "Vista Panorámica de la Plazoleta de Los Zócalos",
+      "Coloridas Decoraciones Zócalos",
+      "Edificios Alrededor de la Plaza",
+      "Vida Comunitaria Local",
+      "Paisaje del Pueblo de Guatapé",
+      "Detalles del Arte Zócalos",
+      "Un Rincón de la Plaza",
+      "Estilo de Pueblo Colombiano",
+      "Actividades de Residentes Locales",
+      "Arte Decorativo Arquitectónico",
+      "Vista de Calle de Guatapé",
+      "Atmósfera de Plaza Cultural",
+      "Elementos Arquitectónicos Tradicionales",
+      "Paisaje de Espacio Público",
+      "Lugar de Actividades Comunitarias",
+      "Escenas de Vida de Pueblo Pequeño",
+      "Colores y Arte"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotos"
+  },
+  "reviews": {
+    "title": "Reseñas de Visitantes",
+    "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Reseñas en Google Maps",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "Hermosa plaza, se puede sentir el ambiente cultural y la vida comunitaria de Guatapé."
+      },
+      {
+        "name": "Li Xiaoming",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "Las decoraciones zócalos alrededor de la plaza son muy hermosas, un paraíso para los entusiastas de la fotografía!"
+      },
+      {
+        "name": "María González",
+        "date": "hace 3 semanas",
+        "rating": 5,
+        "text": "Un lugar encantador para conocer la cultura local de Guatapé. Los zócalos son hermosos."
+      },
+      {
+        "name": "John Smith",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "A charming square that showcases the local culture of Guatapé. The zócalos are beautiful."
+      },
+      {
+        "name": "Ana Silva",
+        "date": "hace 2 meses",
+        "rating": 4,
+        "text": "Hermoso lugar para conocer la cultura de Guatapé. Muy recomendado."
+      },
+      {
+        "name": "Zhang Wei",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "¡Visita obligada cuando vengas a Guatapé, siente la cultura zócalos!"
+      },
+      {
+        "name": "Roberto Pérez",
+        "date": "hace 3 meses",
+        "rating": 5,
+        "text": "Excelente lugar para conocer la tradición de los zócalos en Guatapé."
+      },
+      {
+        "name": "Emma Wilson",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "A must-visit place in Guatapé! The zócalos decorations are so colorful and unique."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación y Mapa",
+    "subtitle": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, Colombia",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Plazoleta de Los Zócalos. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos Oficiales y Enlaces",
+    "officialLinks": {
+      "guatape": {
+        "name": "Sitio Web Oficial de la Alcaldía de Guatapé",
+        "url": "https://www.municipiodeguatape.gov.co/"
+      },
+      "antioquiaTravel": {
+        "name": "Plataforma Oficial de Turismo de Antioquia (Antioquia es Mágica)",
+        "url": "https://turismoantioquia.travel/"
+      },
+      "secretariaTurismo": {
+        "name": "Sitio Web Oficial de la Secretaría de Turismo de Antioquia",
+        "url": "https://secretaria.turismoantioquia.travel/"
+      },
+      "fontur": {
+        "name": "Fondo Nacional de Turismo de Colombia (FONTUR Colombia)",
+        "url": "https://fontur.com.co/"
+      },
+      "colombiaTravel": {
+        "name": "Portal Oficial de Turismo de Colombia (Colombia Travel)",
+        "url": "https://colombia.travel/es"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo Utilizamos su Información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de Terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus Derechos",
+        "content": "Bajo el Reglamento General de Protección de Datos (RGPD) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al tratamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del Contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Exactitud de la Información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o exactitud. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Limitación de Responsabilidad",
+        "content": "No seremos responsables por ningún daño directo o indirecto derivado del uso de este sitio web o la dependencia de la información aquí proporcionada."
+      }
+    ]
+  },
+  "historyTimeline": {
+    "title": "Cronología Histórica",
+    "items": [
+      {
+        "year": "Período Inicial",
+        "title": "Período Inicial: Orígenes de la Cultura Zócalos",
+        "plaque": "Herencia Cultural (Comunidad)",
+        "description": "Los Zócalos son símbolos culturales únicos de Guatapé. Esta tradición comenzó en el siglo XX, cuando los residentes comenzaron a pintar pinturas decorativas coloridas en la parte inferior de las fachadas de los edificios para expresar la identidad comunitaria y el orgullo cultural."
+      },
+      {
+        "year": "Siglo XX",
+        "title": "Siglo XX: Desarrollo de la Tradición Zócalos",
+        "plaque": "Desarrollo Artístico (Herencia Cultural)",
+        "description": "Con el paso del tiempo, el arte decorativo zócalos continuó desarrollándose en Guatapé, convirtiéndose en una característica icónica del pueblo y atrayendo a más y más turistas a visitar."
+      },
+      {
+        "year": "Siglo XXI",
+        "title": "Siglo XXI: Auge del Turismo Cultural",
+        "plaque": "Desarrollo Turístico (Identidad Cultural)",
+        "description": "Guatapé se convirtió gradualmente en un importante destino de turismo cultural en Colombia. La Plazoleta de Los Zócalos, como un espacio público que exhibe esta tradición cultural, recibió más atención y reconocimiento."
+      }
+    ],
+    "guideTitle": "Consejo de Guía para Visitantes",
+    "guideContent": "Al visitar, puede comenzar desde la Plaza Principal de Guatapé y caminar por las calles coloridas hasta la Plazoleta de Los Zócalos; admirar el arte decorativo zócalos y los estilos arquitectónicos locales alrededor de la plaza; probar la cocina local cerca de la plaza; si tiene tiempo suficiente, también puede dirigirse a La Piedra del Peñol o al Embalse de Guatapé para continuar explorando."
+  },
+  "officialManagement": {
+    "title": "Acerca de la Plazoleta de Los Zócalos",
+    "text": "La Plazoleta de Los Zócalos es una plaza cultural en Guatapé, Antioquia, Colombia. Como un espacio público gestionado por el gobierno local, es un lugar importante para exhibir las tradiciones culturales zócalos de Guatapé y la vida comunitaria."
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "badge": "Siempre Activo"
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios Personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Configuración guardada!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del Usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+        }
+      ],
+      "title": "Cookies de Preferencias",
+      "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar Todas"
+  }
+}

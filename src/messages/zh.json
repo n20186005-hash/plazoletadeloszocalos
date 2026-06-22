@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "title": "Plazoleta de Los Zócalos | 哥伦比亚瓜塔佩的文化广场",
+    "description": "探索 Plazoleta de Los Zócalos，位于哥伦比亚安蒂奥基亚省瓜塔佩的文化广场，感受当地的传统与社区生活。"
+  },
+  "header": {
+    "siteName": "Plazoleta de Los Zócalos",
+    "home": "首页",
+    "gallery": "图库",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "Plazoleta de Los Zócalos",
+    "subtitle": "瓜塔佩的文化中心，感受哥伦比亚的社区生活",
+    "rating": "4.8",
+    "reviewCount": "15,767",
+    "hours": "文化广场 / 公共空间 / 社区活动场所",
+    "openMaps": "查看位置"
+  },
+  "intro": {
+    "title": "探索 Plazoleta de Los Zócalos",
+    "description": "Plazoleta de Los Zócalos 是位于哥伦比亚安蒂奥基亚省瓜塔佩（Guatapé）的一处文化广场。作为当地社区的重要公共空间，这里承载着瓜塔佩居民日常社交、文化活动和节庆集会的功能。\n\n瓜塔佩是哥伦比亚著名的旅游小镇，以色彩斑斓的 zócalos（建筑外墙底部的彩色装饰画）而闻名。Plazoleta de Los Zócalos 作为镇上的公共广场，是体验当地文化和社区生活的理想场所。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "🌞 上午游览：从瓜塔佩主广场出发 ➔ 漫步至 Plazoleta de Los Zócalos ➔ 欣赏当地建筑装饰",
+        "🌙 下午文化体验：参观广场周边 ➔ 品尝当地美食 ➔ 感受社区生活",
+        "🎉 节庆活动：如果恰逢当地节庆，可以在广场上体验传统音乐和舞蹈"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "核心亮点",
+      "items": [
+        "🏛️ 文化广场：瓜塔佩当地重要的公共集会和文化活动空间。",
+        "🎨 Zócalos 艺术：广场周边建筑展示着瓜塔佩标志性的彩色外墙装饰艺术。",
+        "👥 社区生活：感受当地居民的日常生活和社交活动，体验 authentic 的哥伦比亚小镇生活。",
+        "📸 摄影胜地：广场及周边的 zócalos 装饰是摄影爱好者的理想取景地。"
+      ]
+    }
+  },
+  "route": {
+    "title": "建议游览路线",
+    "overview": "探索 Plazoleta de Los Zócalos 的推荐路线：",
+    "steps": [
+      "从瓜塔佩主广场（Plaza de Zocalos）出发，沿着色彩斑斓的街道漫步。",
+      "前往 Plazoleta de Los Zócalos，欣赏广场周边的建筑装饰和当地生活场景。",
+      "在广场附近的咖啡馆或餐厅休息，品尝当地美食。",
+      "继续探索瓜塔佩的其他景点，如 La Piedra del Peñol（巨石）或瓜塔佩水库。"
+    ],
+    "supplementsTitle": "游览补充建议",
+    "supplements": [
+      "建议穿着舒适的步行鞋，以便在小镇的石板路上行走。",
+      "瓜塔佩气候温暖，建议携带防晒用品和水。",
+      "最佳游览时间是早晨或傍晚，可以避开中午的炎热并拍摄到更好的照片。"
+    ]
+  },
+  "knowledge": {
+    "title": "发现 Plazoleta de Los Zócalos 的魅力",
+    "sections": [
+      {
+        "id": "history",
+        "title": "历史与文化",
+        "content": "Zócalos 是瓜塔佩独特的文化符号，指的是建筑外墙底部的彩色装饰画。这一传统始于20世纪，如今已成为瓜塔佩的标志性特征。Plazoleta de Los Zócalos 作为公共广场，承载着这一文化传统的展示功能。"
+      },
+      {
+        "id": "community",
+        "title": "社区功能",
+        "content": "作为公共广场，这里不仅是游客的参观地点，更是当地居民日常社交、举办文化活动和节庆集会的重要场所。广场体现了哥伦比亚小镇社区生活的活力与温度。"
+      },
+      {
+        "id": "architecture",
+        "title": "建筑与艺术",
+        "content": "广场周边的建筑展示了瓜塔佩特色的 zócalos 装饰艺术，每一幅装饰画都讲述着当地的故事和传统，体现了社区居民的文化认同感。"
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "核心标签 (Quick Facts)",
+    "officialName": "正式名称",
+    "officialNameValue": "Plazoleta de Los Zócalos",
+    "type": "景点类型",
+    "typeValue": "文化广场 / 公共空间 / 社区活动场所",
+    "country": "国家",
+    "countryValue": "哥伦比亚",
+    "city": "城市",
+    "cityValue": "瓜塔佩 (Guatapé), 安蒂奥基亚省",
+    "googleRating": "谷歌评分",
+    "address": "位置",
+    "addressValue": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, 哥伦比亚",
+    "plusCode": "Plus 代码",
+    "plusCodeValue": "6RMQ+GP 瓜塔佩 哥伦比亚安蒂奥基亚省",
+    "phone": "联系电话",
+    "phoneValue": "+57 322 532 8616",
+    "petFriendly": "宠物准入",
+    "petFriendlyValue": "公共广场，允许宠物进入",
+    "tickets": "门票信息",
+    "ticketsValue": "免费开放"
+  },
+  "hours": {
+    "title": "开放时间与游览建议 (Visitor Info)",
+    "outdoor": "开放时间",
+    "outdoorTime": "全天开放（公共广场）",
+    "lighthouse": "最佳游览时间",
+    "summer": "早晨或傍晚",
+    "summerTime": "光线柔和，适合拍照和漫步",
+    "winter": "游览亮点",
+    "winterTime": "zócalos 装饰艺术、社区生活、建筑摄影",
+    "warning": "💡 本地人贴士 (Local Insider Tip)",
+    "warningTime": "早晨是观看当地居民日常活动的最佳时间，傍晚则可以欣赏到美丽的日落景色。记得带上相机记录色彩斑斓的 zócalos！",
+    "tip": "广场周边有许多当地小吃摊和咖啡馆，可以品尝 authentic 的哥伦比亚美食。"
+  },
+  "tickets": {
+    "title": "注意事项",
+    "outdoor": "入场费用",
+    "outdoorPrice": "免费开放（公共广场）",
+    "lighthouse": "交通信息",
+    "adults": "从麦德林出发",
+    "adultsPrice": "乘坐巴士约2小时",
+    "students": "建议游玩时间",
+    "studentsPrice": "1-2小时",
+    "card": "周边景点",
+    "cardPrice": "瓜塔佩主广场、La Piedra del Peñol、瓜塔佩水库。👉 [前往瓜塔佩]",
+    "officialNotice": "获取最新信息，请查阅",
+    "officialNoticeLinkLabel": "瓜塔佩市政府官方网站",
+    "officialNoticeLink": "https://www.municipiodeguatape.gov.co/"
+  },
+  "transport": {
+    "title": "交通方式",
+    "airport": "从机场出发",
+    "airportDesc": "从最近的机场（何塞·玛丽亚·科尔多瓦国际机场，位于麦德林附近）出发，需要先到达麦德林，然后乘坐巴士前往瓜塔佩。",
+    "selfDrive": "自驾前往",
+    "selfDriveDesc": "从麦德林出发，沿着清晰标注的道路行驶约2小时即可到达瓜塔佩，广场位于镇中心区域。",
+    "bus": "公共交通",
+    "busDesc": "从麦德林的北区巴士总站（Terminal del Norte）乘坐巴士前往瓜塔佩是最受欢迎的交通方式，班次频繁。",
+    "intercity": "镇内交通",
+    "intercityDesc": "广场位于瓜塔佩镇中心，从主广场步行即可到达。",
+    "cycling": "其他方式",
+    "cyclingDesc": "可以在镇上租用自行车或徒步游览，更好地欣赏 zócalos 装饰艺术。",
+    "tips": "出行建议",
+    "tipsDesc": "巴士从麦德林出发的时间频繁，建议尽早出发以充分利用在瓜塔佩的时间。"
+  },
+  "gallery": {
+    "title": "精彩照片",
+    "subtitle": "感受哥伦比亚瓜塔佩的文化魅力",
+    "captions": [
+      "Plazoleta de Los Zócalos 全景",
+      "色彩斑斓的 Zócalos 装饰",
+      "广场周边建筑",
+      "当地社区生活",
+      "瓜塔佩小镇风光",
+      "Zócalos 艺术细节",
+      "广场一角",
+      "哥伦比亚小镇风貌",
+      "当地居民活动",
+      "建筑装饰艺术",
+      "瓜塔佩街景",
+      "文化广场氛围",
+      "传统建筑元素",
+      "公共空间景观",
+      "社区活动场所",
+      "小镇生活场景",
+      "色彩与艺术"
+    ],
+    "viewAll": "在 Google Maps 查看更多照片",
+    "showAllPhotos": "显示全部照片"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
+    "moreReviews": "在 Google Maps 查看更多评价",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "date": "2个月前",
+        "rating": 5,
+        "text": "美丽的广场，可以感受到瓜塔佩当地的文化氛围和社区生活。"
+      },
+      {
+        "name": "李小明",
+        "date": "1个月前",
+        "rating": 5,
+        "text": "广场周边的 zócalos 装饰非常漂亮，是摄影爱好者的天堂！"
+      },
+      {
+        "name": "María González",
+        "date": "3周前",
+        "rating": 5,
+        "text": "Un lugar encantador para conocer la cultura local de Guatapé. Los zócalos son hermosos."
+      },
+      {
+        "name": "John Smith",
+        "date": "半年多前",
+        "rating": 5,
+        "text": "A charming square that showcases the local culture of Guatapé. The zócalos are beautiful."
+      },
+      {
+        "name": "Ana Silva",
+        "date": "2个月前",
+        "rating": 4,
+        "text": "Hermoso lugar para conocer la cultura de Guatapé. Muy recomendado."
+      },
+      {
+        "name": "张伟",
+        "date": "1个月前",
+        "rating": 5,
+        "text": "来到瓜塔佩一定要来这个广场，感受当地的 zócalos 文化！"
+      },
+      {
+        "name": "Roberto Pérez",
+        "date": "3个月前",
+        "rating": 5,
+        "text": "Excelente lugar para conocer la tradición de los zócalos en Guatapé."
+      },
+      {
+        "name": "Emma Wilson",
+        "date": "2个月前",
+        "rating": 5,
+        "text": "A must-visit place in Guatapé! The zócalos decorations are so colorful and unique."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "地图位置",
+    "subtitle": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, 哥伦比亚",
+    "openMaps": "在 Google Maps 查看位置"
+  },
+  "footer": {
+    "rights": "© 2026 Plazoleta de Los Zócalos. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "相关资源与资讯",
+    "officialLinks": {
+      "guatape": {
+        "name": "瓜塔佩市政府官方网站 (Alcaldía de Guatapé)",
+        "url": "https://www.municipiodeguatape.gov.co/"
+      },
+      "antioquiaTravel": {
+        "name": "安蒂奥基亚省官方旅游平台 (Antioquia es Mágica)",
+        "url": "https://turismoantioquia.travel/"
+      },
+      "secretariaTurismo": {
+        "name": "安蒂奥基亚省旅游局官方网站 (Secretaría de Turismo de Antioquia)",
+        "url": "https://secretaria.turismoantioquia.travel/"
+      },
+      "fontur": {
+        "name": "哥伦比亚国家旅游基金会 (FONTUR Colombia)",
+        "url": "https://fontur.com.co/"
+      },
+      "colombiaTravel": {
+        "name": "哥伦比亚官方旅游门户网站 (Colombia Travel)",
+        "url": "https://colombia.travel/es"
+      }
+    },
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 我们收集的信息",
+        "content": "我们仅收集提供服务所必需的最低限度数据。这些数据可能包括：浏览数据（IP 地址、浏览器类型、访问页面）、Cookie 和类似技术，以及您通过联系表格或电子邮件自愿提供的任何信息。"
+      },
+      {
+        "heading": "2. 我们如何使用您的信息",
+        "content": "我们使用收集到的信息用于：改善网站内容和用户体验、分析流量和使用模式、回应请求，以及遵守我们的法律义务。"
+      },
+      {
+        "heading": "3. 第三方服务",
+        "content": "我们的网站可能会使用第三方服务，例如谷歌地图（用于嵌入式地图和位置数据）、谷歌分析（用于流量分析）和 Unsplash（用于图片）。这些服务均有各自的隐私政策。"
+      },
+      {
+        "heading": "4. 您的权利",
+        "content": "根据《通用数据保护条例》(GDPR)及相关法规，您享有以下权利：访问您的个人数据、要求更正或删除、反对处理，以及向监管机构提出投诉。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 接受条款",
+        "content": "访问和使用本网站，即表示您同意受这些服务条款的约束。"
+      },
+      {
+        "heading": "2. 内容使用",
+        "content": "本网站所有内容仅供参考。我们是一家独立的第三方旅游信息网站，与任何旅游景点、政府机构或商业运营商均无关联。"
+      },
+      {
+        "heading": "3. 信息的准确性",
+        "content": "我们力求提供准确及时的信息，但无法保证信息的完整性或准确性。行程安排、条件和服务如有变更，恕不另行通知。请务必在出行前通过官方渠道核实重要信息。"
+      },
+      {
+        "heading": "4. 责任限制",
+        "content": "对于因使用本网站或依赖其中提供的信息而产生的任何直接或间接损失，我们不承担任何责任。"
+      }
+    ]
+  },
+  "historyTimeline": {
+    "title": "历史与发展",
+    "items": [
+      {
+        "year": "早期",
+        "title": "早期：Zócalos 文化的起源",
+        "plaque": "文化传承 (社区)",
+        "description": "Zócalos 是瓜塔佩独特的文化符号，这一传统始于20世纪，居民们开始在建筑外墙底部绘制彩色装饰画，用以表达社区认同和文化自豪感。"
+      },
+      {
+        "year": "20世纪",
+        "title": "20世纪：Zócalos 传统的发展",
+        "plaque": "艺术发展 (文化传承)",
+        "description": "随着时间推移，zócalos 装饰艺术在瓜塔佩不断发展，成为小镇的标志性特征，吸引了越来越多游客前来参观。"
+      },
+      {
+        "year": "21世纪",
+        "title": "21世纪：文化旅游的兴起",
+        "plaque": "旅游发展 (文化认同)",
+        "description": "瓜塔佩逐渐成为哥伦比亚重要的文化旅游目的地，Plazoleta de Los Zócalos 作为展示这一文化传统的公共空间，得到了更多关注和认可。"
+      }
+    ],
+    "guideTitle": "游客导览建议",
+    "guideContent": "游客在参观时，可以从瓜塔佩主广场出发，沿着色彩斑斓的街道漫步至 Plazoleta de Los Zócalos；欣赏广场周边的 zócalos 装饰艺术和当地建筑风格；在广场附近品尝当地美食；如果您有充足的时间，还可以前往 La Piedra del Peñol 或瓜塔佩水库继续探索。"
+  },
+  "officialManagement": {
+    "title": "关于 Plazoleta de Los Zócalos",
+    "text": "Plazoleta de Los Zócalos 是哥伦比亚安蒂奥基亚省瓜塔佩的一处文化广场，作为公共空间由当地政府管理，是展示瓜塔佩 zócalos 文化传统和社区生活的重要场所。"
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "最后更新时间：2026年6月\n\n我们使用 Cookie 来改善您的浏览体验。您可以在下方管理您的偏好设置。",
+    "essential": {
+      "title": "必要 Cookie",
+      "description": "这些 Cookie 对于网站正常运行至关重要，无法禁用。",
+      "badge": "始终保持活跃"
+    },
+    "analytics": {
+      "title": "分析型 Cookie",
+      "description": "它们通过收集匿名使用数据，帮助我们了解访客如何与我们的网站互动。",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "激活",
+          "description": "它会收集访客如何使用我们网站的匿名信息。"
+        }
+      ]
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "它们用于展示相关广告并衡量广告活动的有效性。",
+      "items": [
+        {
+          "name": "个性化广告",
+          "status": "停用",
+          "description": "它可以根据你的兴趣为你展示相关的广告。"
+        }
+      ]
+    },
+    "save": "保存偏好设置",
+    "saved": "设置已保存！",
+    "preferences": {
+      "items": [
+        {
+          "name": "用户偏好",
+          "status": "激活",
+          "description": "保存您的语言偏好和网站设置。"
+        }
+      ],
+      "title": "偏好 Cookie",
+      "description": "它们会记住您的设置，例如语言和主题偏好。"
+    },
+    "consentManagement": "同意管理：您可以随时更改您的 Cookie 设置。请注意，禁用某些 Cookie 可能会影响网站的功能。",
+    "rejectAll": "拒绝一切"
+  }
+}
