@@ -13,11 +13,12 @@
   },
   "hero": {
     "title": "Plazoleta de Los Zócalos",
-    "subtitle": "El Corazón Cultural de Guatapé, Experimenta la Vida Comunitaria Colombiana",
+    "subtitle": "Descubre el Corazón Colorido de Guatapé — Experimenta el Arte Auténtico Colombiano y la Vida Comunitaria",
     "rating": "4.8",
     "reviewCount": "15,767",
-    "hours": "Plaza Cultural / Espacio Público / Lugar Comunitario",
-    "openMaps": "Ver Ubicación"
+    "hours": "Plaza Cultural / Espacio Público",
+    "openMaps": "Ver Ubicación",
+    "accommodation": "Consejos de Alojamiento"
   },
   "intro": {
     "title": "Explora la Plazoleta de Los Zócalos",
@@ -96,19 +97,21 @@
     "petFriendly": "Mascotas permitidas",
     "petFriendlyValue": "Plaza pública, se permiten mascotas",
     "tickets": "Entradas",
-    "ticketsValue": "Entrada gratuita"
+    "ticketsValue": "Entrada gratuita",
+    "facilities": "Instalaciones",
+    "facilitiesValue": "Baños públicos cercanos, cajeros automáticos; área de plaza accesible para sillas de ruedas"
   },
   "hours": {
     "title": "Horarios y Consejos para Visitantes",
-    "outdoor": "Horario de Apertura",
-    "outdoorTime": "Abierto las 24 horas (Plaza Pública)",
-    "lighthouse": "Mejor Momento de Visita",
-    "summer": "Mañana o Tarde",
-    "summerTime": "Iluminación suave, ideal para fotografía y caminatas",
-    "winter": "Destacados",
-    "winterTime": "Arte decorativo zócalos, vida comunitaria, fotografía arquitectónica",
-    "warning": "💡 Consejo de Expertos Locales",
-    "warningTime": "La mañana es el mejor momento para ver las actividades diarias de los residentes locales, y la tarde ofrece hermosas vistas del atardecer. ¡Recuerde traer su cámara para capturar los coloridos zócalos!",
+    "outdoor": "Área de la Plaza",
+    "outdoorTime": "Abierto las 24 horas (Entrada gratuita)",
+    "lighthouse": "Tiendas Cercanas",
+    "summer": "Normalmente abierto de 09:00 a 20:30",
+    "summerTime": "(Depende de cada tienda, consulta Google Maps)",
+    "winter": "Mejor Momento de Visita",
+    "winterTime": "Mañana para luz suave, tarde para el atardecer",
+    "warning": "💡 Clima Dinámico",
+    "warningTime": "La temperatura de hoy en Guatapé es de 24°C, ideal para caminar. Recomendamos traer gafas de sol y protector solar.",
     "tip": "Hay muchos puestos de comida local y cafés alrededor de la plaza, donde puede probar auténtica cocina colombiana."
   },
   "tickets": {
@@ -222,9 +225,14 @@
     ]
   },
   "mapSection": {
-    "title": "Ubicación y Mapa",
+    "title": "Ubicación en el Mapa",
     "subtitle": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, Colombia",
-    "openMaps": "Ver en Google Maps"
+    "openMaps": "Ver en Google Maps",
+    "nearbyTitle": "Recomendaciones Cercanas",
+    "nearby1Name": "Plaza Principal de Guatapé",
+    "nearby1Desc": "🚶 A 5 minutos a pie",
+    "nearby2Name": "La Piedra del Peñol",
+    "nearby2Desc": "🚗 A 10 minutos en coche"
   },
   "footer": {
     "rights": "© 2026 Plazoleta de Los Zócalos. Todos los derechos reservados.",
@@ -304,16 +312,16 @@
     "title": "Cronología Histórica",
     "items": [
       {
-        "year": "Período Inicial",
-        "title": "Período Inicial: Orígenes de la Cultura Zócalos",
-        "plaque": "Herencia Cultural (Comunidad)",
-        "description": "Los Zócalos son símbolos culturales únicos de Guatapé. Esta tradición comenzó en el siglo XX, cuando los residentes comenzaron a pintar pinturas decorativas coloridas en la parte inferior de las fachadas de los edificios para expresar la identidad comunitaria y el orgullo cultural."
+        "year": "1919",
+        "title": "Orígenes: La Creación de José María Parra",
+        "plaque": "Protección y Arte",
+        "description": "Los Zócalos fueron pintados por primera vez a principios del siglo XX (alrededor de 1919) por el residente local José María Parra. Inicialmente diseñados para proteger las paredes de la humedad, evolucionaron hacia una forma de arte única que representa profesiones familiares, creencias e historia local."
       },
       {
-        "year": "Siglo XX",
-        "title": "Siglo XX: Desarrollo de la Tradición Zócalos",
-        "plaque": "Desarrollo Artístico (Herencia Cultural)",
-        "description": "Con el paso del tiempo, el arte decorativo zócalos continuó desarrollándose en Guatapé, convirtiéndose en una característica icónica del pueblo y atrayendo a más y más turistas a visitar."
+        "year": "Mediados del Siglo XX",
+        "title": "Desarrollo: La Propagación de los Zócalos",
+        "plaque": "Patrimonio Cultural",
+        "description": "Con el tiempo, el arte decorativo de los zócalos se expandió y se hizo popular en todo Guatapé. Los residentes comenzaron a pintar sus propias fachadas para expresar identidad comunitaria y orgullo cultural, estableciendo la característica icónica del pueblo."
       },
       {
         "year": "Siglo XXI",

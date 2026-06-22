@@ -54,6 +54,18 @@ export default function Hero() {
               </svg>
               <span className="text-white text-sm">{t('openMaps')}</span>
             </a>
+            <a
+              href="https://www.booking.com/searchresults.html?ss=Guatap%C3%A9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 bg-[var(--accent)] rounded-full px-4 py-2 hover:opacity-90 transition-opacity"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+              <span className="text-white text-sm font-medium">{t('accommodation')}</span>
+            </a>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await import(`@/messages/${locale}.json`)).default;
-  const baseUrl = 'https://cocora-valley.com';
+  const baseUrl = 'https://plazoletadeloszocalos.com';
 
   const zhUrl = `${baseUrl}/zh`;
   const enUrl = `${baseUrl}/en`;
@@ -47,7 +47,7 @@ export async function generateMetadata({
       title: messages.meta.title,
       description: messages.meta.description,
       url: selfUrl,
-      siteName: "Cocora Valley",
+      siteName: "Plazoleta de Los Zócalos",
       locale: localeMap[locale] || 'en_US',
       type: 'website',
     },
@@ -81,6 +81,35 @@ export default async function LocaleLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
         <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Colombia",
+                  "item": "https://plazoletadeloszocalos.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Antioquia",
+                  "item": "https://plazoletadeloszocalos.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Guatapé",
+                  "item": "https://plazoletadeloszocalos.com/"
+                }
+              ]
+            })
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `

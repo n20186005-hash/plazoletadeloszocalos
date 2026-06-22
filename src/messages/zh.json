@@ -13,11 +13,12 @@
   },
   "hero": {
     "title": "Plazoleta de Los Zócalos",
-    "subtitle": "瓜塔佩的文化中心，感受哥伦比亚的社区生活",
+    "subtitle": "探索瓜塔佩的色彩之心 —— 体验纯正哥伦比亚艺术与社区生活",
     "rating": "4.8",
     "reviewCount": "15,767",
-    "hours": "文化广场 / 公共空间 / 社区活动场所",
-    "openMaps": "查看位置"
+    "hours": "文化广场 / 公共空间",
+    "openMaps": "查看地图导航",
+    "accommodation": "获取周边住宿建议"
   },
   "intro": {
     "title": "探索 Plazoleta de Los Zócalos",
@@ -96,19 +97,21 @@
     "petFriendly": "宠物准入",
     "petFriendlyValue": "公共广场，允许宠物进入",
     "tickets": "门票信息",
-    "ticketsValue": "免费开放"
+    "ticketsValue": "免费开放",
+    "facilities": "实用设施",
+    "facilitiesValue": "附近有公共卫生间、ATM机，广场区域支持轮椅无障碍通行"
   },
   "hours": {
-    "title": "开放时间与游览建议 (Visitor Info)",
-    "outdoor": "开放时间",
-    "outdoorTime": "全天开放（公共广场）",
-    "lighthouse": "最佳游览时间",
-    "summer": "早晨或傍晚",
-    "summerTime": "光线柔和，适合拍照和漫步",
-    "winter": "游览亮点",
-    "winterTime": "zócalos 装饰艺术、社区生活、建筑摄影",
-    "warning": "💡 本地人贴士 (Local Insider Tip)",
-    "warningTime": "早晨是观看当地居民日常活动的最佳时间，傍晚则可以欣赏到美丽的日落景色。记得带上相机记录色彩斑斓的 zócalos！",
+    "title": "开放时间与游览建议",
+    "outdoor": "广场区域",
+    "outdoorTime": "24小时免费开放",
+    "lighthouse": "周边商铺",
+    "summer": "通常在 09:00 - 20:30 期间营业",
+    "summerTime": "（具体视各店铺而定，建议参考 Google Maps 数据）",
+    "winter": "最佳游览时间",
+    "winterTime": "早晨光线柔和适合拍照，傍晚可欣赏日落",
+    "warning": "💡 动态天气提示",
+    "warningTime": "今天瓜塔佩气温 24°C，非常适合步行游览，建议携带墨镜和防晒霜。",
     "tip": "广场周边有许多当地小吃摊和咖啡馆，可以品尝 authentic 的哥伦比亚美食。"
   },
   "tickets": {
@@ -224,7 +227,12 @@
   "mapSection": {
     "title": "地图位置",
     "subtitle": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, 哥伦比亚",
-    "openMaps": "在 Google Maps 查看位置"
+    "openMaps": "在 Google Maps 查看位置",
+    "nearbyTitle": "周边推荐",
+    "nearby1Name": "瓜塔佩主广场 (Parque Principal de Guatapé)",
+    "nearby1Desc": "🚶 步行 5 分钟可达",
+    "nearby2Name": "瓜塔佩巨石 (La Piedra del Peñol)",
+    "nearby2Desc": "🚗 车程 10 分钟"
   },
   "footer": {
     "rights": "© 2026 Plazoleta de Los Zócalos. 保留所有权利。",
@@ -304,16 +312,16 @@
     "title": "历史与发展",
     "items": [
       {
-        "year": "早期",
-        "title": "早期：Zócalos 文化的起源",
-        "plaque": "文化传承 (社区)",
-        "description": "Zócalos 是瓜塔佩独特的文化符号，这一传统始于20世纪，居民们开始在建筑外墙底部绘制彩色装饰画，用以表达社区认同和文化自豪感。"
+        "year": "1919年",
+        "title": "起源：José María Parra 的创作",
+        "plaque": "防潮与艺术",
+        "description": "Zócalos（彩色底座）最初在 20 世纪初（约 1919 年）由当地人 José María Parra 开始绘制，最初是为了房屋防潮，后来逐渐演变成记录家庭职业、信仰或当地历史的独特艺术形式。"
       },
       {
-        "year": "20世纪",
-        "title": "20世纪：Zócalos 传统的发展",
-        "plaque": "艺术发展 (文化传承)",
-        "description": "随着时间推移，zócalos 装饰艺术在瓜塔佩不断发展，成为小镇的标志性特征，吸引了越来越多游客前来参观。"
+        "year": "20世纪中叶",
+        "title": "发展：Zócalos 传统的普及",
+        "plaque": "文化传承",
+        "description": "随着时间推移，zócalos 装饰艺术在瓜塔佩不断发展并普及，居民们纷纷在自家外墙底部绘制彩色装饰画，用以表达社区认同和文化自豪感，成为小镇的标志性特征。"
       },
       {
         "year": "21世纪",
