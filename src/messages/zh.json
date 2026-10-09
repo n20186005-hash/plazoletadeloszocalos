@@ -15,7 +15,7 @@
     "title": "Plazoleta de Los Zócalos",
     "subtitle": "探索瓜塔佩的色彩之心 —— 体验纯正哥伦比亚艺术与社区生活",
     "rating": "4.8",
-    "reviewCount": "15,767",
+    "reviewCount": "16,007",
     "hours": "文化广场 / 公共空间",
     "openMaps": "查看地图导航"
   },
@@ -62,7 +62,12 @@
       {
         "id": "history",
         "title": "历史与文化",
-        "content": "Zócalos 是瓜塔佩独特的文化符号，指的是建筑外墙底部的彩色装饰画。这一传统始于20世纪，如今已成为瓜塔佩的标志性特征。Plazoleta de Los Zócalos 作为公共广场，承载着这一文化传统的展示功能。"
+        "content": "Zócalos 是瓜塔佩独特的文化符号，指建筑外墙底部的彩色装饰画与浮雕。这一传统常被归功于当地人 José María Parra——他在20世纪初开始绘制墙基装饰以防潮，后来逐渐发展为小镇的标志性身份象征。Plazoleta de Los Zócalos 作为公共广场，成为展示这一传统的舞台。"
+      },
+      {
+        "id": "steps",
+        "title": "彩绘阶梯与浮雕",
+        "content": "广场最具辨识度的特色，是那道彩绘阶梯（escaleras de colores），以及周边建筑墙基上传统 zócalos 浮雕。这些浮雕描绘着当地风景、家族职业、宗教题材与瓜塔佩的日常生活。由于作品就在视线高度，这座小广场非常适合近距离欣赏技艺，并在没有主广场人潮的情况下拍摄斑斓的色彩。"
       },
       {
         "id": "community",
@@ -88,17 +93,17 @@
     "cityValue": "瓜塔佩 (Guatapé), 安蒂奥基亚省",
     "googleRating": "谷歌评分",
     "address": "位置",
-    "addressValue": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, 哥伦比亚",
+    "addressValue": "Cra. 28a #30-68, Guatapé, Antioquia, 哥伦比亚",
     "plusCode": "Plus 代码",
     "plusCodeValue": "6RMQ+GP 瓜塔佩 哥伦比亚安蒂奥基亚省",
     "phone": "联系电话",
     "phoneValue": "+57 322 532 8616",
-    "petFriendly": "宠物准入",
-    "petFriendlyValue": "公共广场，允许宠物进入",
+    "petFriendly": "宠物",
+    "petFriendlyValue": "开放式公共广场；请遵守当地宠物管理规范",
     "tickets": "门票信息",
     "ticketsValue": "免费开放",
     "facilities": "实用设施",
-    "facilitiesValue": "附近有公共卫生间、ATM机，广场区域支持轮椅无障碍通行"
+    "facilitiesValue": "开放式公共广场，无收费设施；周边镇中心有咖啡馆、商铺与便民服务"
   },
   "hours": {
     "title": "开放时间与游览建议",
@@ -109,8 +114,8 @@
     "summerTime": "（具体视各店铺而定，建议参考 Google Maps 数据）",
     "winter": "最佳游览时间",
     "winterTime": "早晨光线柔和适合拍照，傍晚可欣赏日落",
-    "warning": "💡 动态天气提示",
-    "warningTime": "今天瓜塔佩气温 24°C，非常适合步行游览，建议携带墨镜和防晒霜。",
+    "warning": "💡 气候提示",
+    "warningTime": "瓜塔佩全年气候温和、如春，白天气温通常舒适宜人，适合步行游览。清晨与傍晚最为惬意；建议携带一件薄外套、墨镜与防晒霜，雨季备好雨具。",
     "tip": "广场周边有许多当地小吃摊和咖啡馆，可以品尝 authentic 的哥伦比亚美食。"
   },
   "tickets": {
@@ -172,6 +177,7 @@
     "title": "游客评价",
     "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
     "moreReviews": "在 Google Maps 查看更多评价",
+    "ratingNote": "基于 Google 的 {count} 条评价。评分由 Google 提供，可能随时间变化。",
     "items": [
       {
         "name": "Carlos Mendoza",
@@ -225,7 +231,7 @@
   },
   "mapSection": {
     "title": "地图位置",
-    "subtitle": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, 哥伦比亚",
+    "subtitle": "Cra. 28a #30-68, Guatapé, Antioquia, 哥伦比亚",
     "openMaps": "在 Google Maps 查看位置",
     "nearbyTitle": "周边推荐",
     "nearby1Name": "瓜塔佩主广场 (Parque Principal de Guatapé)",
@@ -321,6 +327,12 @@
         "title": "发展：Zócalos 传统的普及",
         "plaque": "文化传承",
         "description": "随着时间推移，zócalos 装饰艺术在瓜塔佩不断发展并普及，居民们纷纷在自家外墙底部绘制彩色装饰画，用以表达社区认同和文化自豪感，成为小镇的标志性特征。"
+      },
+      {
+        "year": "建镇200周年",
+        "title": "广场的建成",
+        "plaque": "献给瓜塔佩",
+        "description": "据当地旅游部门资料，Plazoleta de Los Zócalos 是为了纪念瓜塔佩建镇 200 周年而建。广场为小镇提供了一个集中展示 zócalos 传统的彩色公共空间，与更古老、全镇范围的墙面彩绘传统有所区别。"
       },
       {
         "year": "21世纪",

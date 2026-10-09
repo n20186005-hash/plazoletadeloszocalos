@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://queensparksavannahpark.com/sitemap.xml
+Sitemap: https://www.plazoletadeloszocalos.com/sitemap.xml

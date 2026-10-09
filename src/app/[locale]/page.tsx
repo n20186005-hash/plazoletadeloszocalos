@@ -12,6 +12,8 @@ import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import Footer from '@/components/Footer';
+import TopicLinks from '@/components/TopicLinks';
+import { SITE_URL } from '@/lib/topics';
 
 export default async function HomePage({
   params,
@@ -21,10 +23,23 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const homeUrl = `${SITE_URL}/${locale}`;
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Guatapé', item: homeUrl },
+    ],
+  };
+
   return (
     <>
       <Header />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        />
         <Hero />
         <Intro />
         <BasicInfo />
@@ -36,6 +51,7 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <MapEmbed />
+        <TopicLinks />
       </main>
       <Footer />
     </>

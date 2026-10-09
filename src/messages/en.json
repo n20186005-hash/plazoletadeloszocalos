@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plazoleta de Los Zócalos | Cultural Plaza in Guatapé, Colombia",
-    "description": "Explore Plazoleta de Los Zócalos, a cultural plaza in Guatapé, Antioquia, Colombia, and experience local traditions and community life."
+    "title": "Plazoleta de Los Zócalos, Guatapé | Photos & Visitor Guide",
+    "description": "Explore the colorful Plazoleta de Los Zócalos in Guatapé, Colombia. See the painted steps, photo spots, free entry information, location and visiting tips."
   },
   "header": {
     "siteName": "Plazoleta de Los Zócalos",
@@ -15,13 +15,13 @@
     "title": "Plazoleta de Los Zócalos",
     "subtitle": "Discover the Colorful Heart of Guatapé — Experience Authentic Colombian Art and Community Life",
     "rating": "4.8",
-    "reviewCount": "15,767",
+    "reviewCount": "16,007",
     "hours": "Cultural Plaza / Public Space",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Explore Plazoleta de Los Zócalos",
-    "description": "Plazoleta de Los Zócalos is a cultural plaza located in Guatapé, Antioquia, Colombia. As an important public space for the local community, it serves as a venue for daily social activities, cultural events, and festive gatherings.\n\nGuatapé is a famous tourist town in Colombia, known for its colorful zócalos (colorful decorative paintings on the lower part of building facades). Plazoleta de Los Zócalos, as a public plaza in the town, is an ideal place to experience local culture and community life.",
+    "description": "Plazoleta de Los Zócalos is the colorful heart of Guatapé, Antioquia, Colombia — a small public plaza best known for its painted staircase (escaleras de colores) and the traditional zócalos reliefs that decorate the lower walls of the surrounding buildings. According to local tourism sources, the plaza was created to commemorate the 200th anniversary of Guatapé's founding, giving the town a central, artistic gathering space.\n\nUnlike the town's main square, this plazoleta is a quiet, photo-friendly spot where you can admire the hand-painted facades up close, watch everyday community life, and use it as a starting point to explore Guatapé's streets of zócalos.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
@@ -62,12 +62,17 @@
       {
         "id": "history",
         "title": "History & Culture",
-        "content": "Zócalos are unique cultural symbols of Guatapé, referring to the colorful decorative paintings on the lower part of building facades. This tradition began in the 20th century and has now become a iconic feature of Guatapé. Plazoleta de Los Zócalos, as a public plaza, carries the display function of this cultural tradition."
+        "content": "Zócalos are unique cultural symbols of Guatapé — colorful decorative paintings and reliefs on the lower part of building facades. The tradition is often credited to local resident José María Parra, who began painting the baseboards in the early 20th century to protect walls from moisture, and the art form grew into the town's signature identity. Plazoleta de Los Zócalos, as a public plaza, became a stage for displaying this tradition."
+      },
+      {
+        "id": "steps",
+        "title": "The Painted Steps & Zócalos Reliefs",
+        "content": "The plaza's most distinctive feature is its painted staircase (escaleras de colores) and the traditional zócalos reliefs carved and painted onto the lower walls of the surrounding buildings. These panels depict local scenes, family trades, religious motifs and everyday life in Guatapé. Because the artwork is at eye level, the plazoleta is an ideal place to study the craft up close and to photograph the colors without the crowds of the main square."
       },
       {
         "id": "community",
         "title": "Community Function",
-        "content": "As a public plaza, this is not only a tourist attraction, but also an important venue for local residents' daily socializing, cultural events, and festive gatherings. The plaza embodies the vitality and warmth of community life in Colombian small towns."
+        "content": "As a public plaza, this is not only a tourist stop, but also an important venue for local residents' daily socializing, cultural events, and festive gatherings. The plaza reflects the vitality and warmth of community life in Colombian small towns."
       },
       {
         "id": "architecture",
@@ -88,17 +93,17 @@
     "cityValue": "Guatapé, Antioquia",
     "googleRating": "Google Rating",
     "address": "Address",
-    "addressValue": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, Colombia",
+    "addressValue": "Cra. 28a #30-68, Guatapé, Antioquia, Colombia",
     "plusCode": "Plus Code",
     "plusCodeValue": "6RMQ+GP Guatapé, Antioquia, Colombia",
     "phone": "Phone",
     "phoneValue": "+57 322 532 8616",
-    "petFriendly": "Pet Friendly",
-    "petFriendlyValue": "Public plaza, pets allowed",
+    "petFriendly": "Pets",
+    "petFriendlyValue": "Open public plaza — please follow local guidelines for pets",
     "tickets": "Tickets",
     "ticketsValue": "Free admission",
     "facilities": "Facilities",
-    "facilitiesValue": "Nearby public restrooms, ATMs; wheelchair accessible plaza area"
+    "facilitiesValue": "Open public square with no ticketed facilities; cafés, shops, restrooms and services are in the surrounding town center"
   },
   "hours": {
     "title": "Opening Hours & Visitor Info",
@@ -109,8 +114,8 @@
     "summerTime": "(Depends on the specific store, please refer to Google Maps)",
     "winter": "Best Visiting Time",
     "winterTime": "Morning for soft lighting, evening for sunset views",
-    "warning": "💡 Dynamic Weather Tip",
-    "warningTime": "Today's temperature in Guatapé is 24°C, perfect for walking. We recommend bringing sunglasses and sunscreen.",
+    "warning": "💡 Climate Tip",
+    "warningTime": "Guatapé enjoys a mild, spring-like climate for most of the year, with daytime temperatures generally comfortable for walking. Mornings and evenings are pleasant; we recommend bringing a light layer, sunglasses and sunscreen, and a rain jacket during the rainy season.",
     "tip": "There are many local snack stalls and cafes around the plaza, where you can taste authentic Colombian cuisine."
   },
   "tickets": {
@@ -172,6 +177,7 @@
     "title": "Visitor Reviews",
     "declaration": "Review information can be viewed via Google Maps (external link).",
     "moreReviews": "View More Reviews on Google Maps",
+    "ratingNote": "Based on {count} Google reviews. Ratings are provided by Google and may change over time.",
     "items": [
       {
         "name": "Carlos Mendoza",
@@ -225,7 +231,7 @@
   },
   "mapSection": {
     "title": "Map Location",
-    "subtitle": "a 30-68, Cra. 28a ##302, Guatape, Guatapé, Antioquia, Colombia",
+    "subtitle": "Cra. 28a #30-68, Guatapé, Antioquia, Colombia",
     "openMaps": "View on Google Maps",
     "nearbyTitle": "Nearby Recommendations",
     "nearby1Name": "Guatapé Main Plaza (Parque Principal de Guatapé)",
@@ -321,6 +327,12 @@
         "title": "Development: The Spread of Zócalos",
         "plaque": "Cultural Heritage",
         "description": "Over time, the zócalos decorative art expanded and became popular throughout Guatapé. Residents began painting their own facades to express community identity and cultural pride, establishing the town's iconic feature."
+      },
+      {
+        "year": "200th Anniversary",
+        "title": "The Creation of the Plaza",
+        "plaque": "A Tribute to Guatapé",
+        "description": "According to local tourism sources, Plazoleta de Los Zócalos was created to commemorate the 200th anniversary of Guatapé's founding. The plaza gave the town a central, colorful gathering space that celebrates its zócalos heritage — distinct from the older, town-wide tradition of painting facades."
       },
       {
         "year": "21st Century",
