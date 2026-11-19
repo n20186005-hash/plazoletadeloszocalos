@@ -3,7 +3,9 @@ export type TopicSlug =
   | 'zocalos-de-guatape'
   | 'calle-del-recuerdo'
   | 'piedra-del-penol'
-  | 'como-llegar-desde-medellin';
+  | 'como-llegar-desde-medellin'
+  | 'iglesia-nuestra-senora-del-carmen'
+  | 'malecon-de-guatape';
 
 export type TopicSection = { id: string; heading: string; body: string };
 export type TopicFaq = { question: string; answer: string };
@@ -577,6 +579,84 @@ export const TOPICS: Topic[] = [
           answer:
             'At the Medellín terminal; confirm schedules and fares on official sources before your trip.',
         },
+      ],
+    },
+  },
+  {
+    slug: 'iglesia-nuestra-senora-del-carmen',
+    es: {
+      label: 'Iglesia de Nuestra Señora del Carmen',
+      metaTitle: 'Iglesia de Nuestra Señora del Carmen de Guatapé: historia y visita',
+      metaDescription: 'Guía de la iglesia del Parque Principal de Guatapé: arquitectura, detalles, acceso, ruta y fotografías.',
+      title: 'Iglesia de Nuestra Señora del Carmen',
+      intro: 'La iglesia preside el Parque Principal de Guatapé y sirve de referencia para orientarse por el centro histórico. Su fachada, la plaza y las casas con zócalos permiten observar en un solo paseo la relación entre arquitectura religiosa y vida cotidiana.',
+      sections: [
+        { id: 'historia', heading: 'Historia y contexto del templo', body: 'La devoción a Nuestra Señora del Carmen ocupa un lugar importante en el patrimonio religioso local. El edificio se integra en el centro tradicional del municipio; conviene distinguir la historia de la comunidad parroquial de las reformas que pueda haber tenido el templo a lo largo del tiempo.' },
+        { id: 'arquitectura', heading: 'Fachada y espacio urbano', body: 'Observa la composición simétrica del frente, las torres y el acceso principal. Desde la plaza se aprecia cómo su volumen contrasta con las edificaciones bajas, coloridas y decoradas con zócalos que forman el entorno.' },
+        { id: 'interior', heading: 'Qué observar durante la visita', body: 'Si hay acceso y no se celebra un oficio, mira la disposición de la nave, la iluminación y los elementos devocionales. Mantén silencio y evita el uso de flash durante las ceremonias.' },
+        { id: 'ruta', heading: 'Un paseo cultural desde la plaza', body: 'Empieza frente a la fachada, camina alrededor del Parque Principal, compara los zócalos de las calles contiguas y continúa hacia la Calle del Recuerdo y la Plazoleta de los Zócalos.' },
+      ],
+      faq: [
+        { question: '¿Se puede visitar el interior?', answer: 'Depende de las celebraciones y del horario parroquial. Confirma la apertura en el lugar y respeta los oficios.' },
+        { question: '¿Hay que pagar entrada?', answer: 'La observación exterior desde el Parque Principal es gratuita. Las actividades religiosas y eventuales visitas especiales se rigen por las disposiciones de la parroquia.' },
+        { question: '¿Cuál es el mejor punto para fotografiar?', answer: 'El frente del Parque Principal permite encuadrar las torres y el conjunto urbano; evita bloquear la entrada.' },
+      ],
+    },
+    en: {
+      label: 'Our Lady of Carmen Church',
+      metaTitle: 'Our Lady of Carmen Church, Guatapé: heritage and visitor guide',
+      metaDescription: 'Explore Guatapé’s central church: architectural details, historic context, access, photos and a short walking route.',
+      title: 'Our Lady of Carmen Church',
+      intro: 'Facing Guatapé’s Main Park, Our Lady of Carmen Church is a natural landmark for exploring the historic center. Its facade, the square and the surrounding zócalo-covered houses reveal the relationship between religious architecture and everyday town life.',
+      sections: [
+        { id: 'historia', heading: 'The church in local history', body: 'Devotion to Our Lady of Carmen forms part of the town’s religious heritage. The church sits at the heart of the traditional center; the history of the parish and any subsequent building alterations are distinct stories worth exploring.' },
+        { id: 'arquitectura', heading: 'Facade and townscape', body: 'Look at the balanced front elevation, towers and entrance. From the park, the church’s scale contrasts with the lower, brightly painted facades and decorative zócalos around it.' },
+        { id: 'interior', heading: 'Details to notice inside', body: 'If entry is permitted and no service is underway, observe the nave, light and devotional features. Keep quiet and avoid flash photography during ceremonies.' },
+        { id: 'ruta', heading: 'A cultural walk from the park', body: 'Begin opposite the church facade, stroll around the Main Park, compare zócalos on adjacent streets and continue toward Calle del Recuerdo and Zócalos Plaza.' },
+      ],
+      faq: [
+        { question: 'Can you go inside?', answer: 'Access depends on parish hours and services. Check locally and respect worship activities.' },
+        { question: 'Is there an admission fee?', answer: 'Viewing the exterior from the Main Park is free. Parish activities and any special visits follow the church’s own arrangements.' },
+        { question: 'Where is the best photo spot?', answer: 'The opposite side of Main Park frames the towers and surrounding streets; do not block the entrance.' },
+      ],
+    },
+  },
+  {
+    slug: 'malecon-de-guatape',
+    es: {
+      label: 'Malecón de Guatapé',
+      metaTitle: 'Malecón de Guatapé: paseo junto al embalse y ruta a pie',
+      metaDescription: 'Paseo del malecón de Guatapé: vistas del embalse, embarcaderos, fotografía, transporte y consejos de visita.',
+      title: 'Malecón de Guatapé',
+      intro: 'El malecón conecta el pueblo con el paisaje del embalse Peñol–Guatapé. Es una caminata accesible desde el centro para ver las orillas, las embarcaciones y el contraste entre las montañas verdes y la arquitectura urbana.',
+      sections: [
+        { id: 'paisaje', heading: 'El embalse como paisaje cultural', body: 'Las aguas y las penínsulas transformaron la vida y la economía de la zona. Desde el paseo se perciben los cambios del relieve, el trazado de la orilla y la relación actual del municipio con el turismo y la navegación.' },
+        { id: 'diseno', heading: 'Paseo ribereño y miradores', body: 'Observa las barandas, áreas de descanso, pequeños embarcaderos y perspectivas abiertas. El malecón es un espacio de encuentro; ciertas instalaciones y operadores funcionan con horarios propios.' },
+        { id: 'actividad', heading: 'Qué hacer sin tomar un barco', body: 'Puedes recorrer el borde del agua, fotografiar las embarcaciones desde tierra y comparar las vistas hacia el Peñón. Las excursiones acuáticas son opcionales y se contratan por separado.' },
+        { id: 'ruta', heading: 'Ruta desde la Plazoleta de los Zócalos', body: 'Empieza en las escaleras pintadas, visita la Calle del Recuerdo, baja hacia el malecón y termina con una vista amplia sobre el embalse. Evita los muelles operativos sin autorización.' },
+      ],
+      faq: [
+        { question: '¿El paseo es gratuito?', answer: 'Caminar por los sectores públicos del malecón no requiere boleto; paseos en barco y servicios comerciales tienen tarifas propias.' },
+        { question: '¿Cuánto tiempo se necesita?', answer: 'Reserva entre 45 y 90 minutos para caminar y tomar fotos, más tiempo si contratas una actividad acuática.' },
+        { question: '¿Cómo llegar desde el centro?', answer: 'El malecón se alcanza a pie desde el Parque Principal y la Plazoleta; utiliza la ubicación específica para elegir la entrada más conveniente.' },
+      ],
+    },
+    en: {
+      label: 'Guatapé Waterfront',
+      metaTitle: 'Guatapé Waterfront: reservoir promenade and walking guide',
+      metaDescription: 'Explore Guatapé’s waterfront: reservoir scenery, docks, photo spots, access and a walking route from the old town.',
+      title: 'Guatapé Waterfront Promenade',
+      intro: 'The waterfront promenade connects the town with the Peñol–Guatapé reservoir. A short walk from the center opens views of the shoreline, boats and green hills rising above the brightly painted streets.',
+      sections: [
+        { id: 'paisaje', heading: 'A landscape shaped by the reservoir', body: 'The reservoir’s waters and peninsulas changed local life and the economy. Along the promenade you can read the contours of the shore and see how boating and tourism now interact with the town.' },
+        { id: 'diseno', heading: 'Promenade, seating and viewpoints', body: 'Notice the railings, resting spots, small docks and open views. This is a shared public space, while individual operators and facilities may keep separate opening times.' },
+        { id: 'actividad', heading: 'What to do without a boat trip', body: 'Stroll beside the water, photograph boats from the shore and compare views toward the rock. Water excursions are optional and booked separately.' },
+        { id: 'ruta', heading: 'Walk from Zócalos Plaza', body: 'Begin at the painted steps, visit Calle del Recuerdo, walk down to the waterfront and end at a broad reservoir viewpoint. Stay clear of working docks unless access is permitted.' },
+      ],
+      faq: [
+        { question: 'Is the waterfront free?', answer: 'Walking through public promenade areas is free; boat rides and commercial services charge separately.' },
+        { question: 'How long should I allow?', answer: 'Allow 45–90 minutes for a stroll and photos, longer if booking an activity on the water.' },
+        { question: 'How do I get there from downtown?', answer: 'Walk from the Main Park or Zócalos Plaza, using the dedicated map link to pick a suitable access point.' },
       ],
     },
   },

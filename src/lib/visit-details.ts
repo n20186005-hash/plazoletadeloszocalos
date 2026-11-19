@@ -84,6 +84,28 @@ export const VISIT_DETAILS: Record<TopicSlug, VisitDetail> = {
     access: { es: 'Billete de bus o traslado de pago. Confirma horarios, taquillas y última salida con la transportadora.', en: 'Bus ticket or paid transfer required. Confirm schedules, ticket counters and last departures with the operator.' },
     visitTime: { es: 'Alrededor de 2 horas por trayecto, sujeto al tráfico', en: 'About 2 hours each way, traffic dependent' },
   },
+  'iglesia-nuestra-senora-del-carmen': {
+    place: 'Iglesia de Nuestra Señora del Carmen', address: 'Parque Principal, Guatapé, Antioquia, Colombia',
+    mapQuery: 'Iglesia Nuestra Señora del Carmen Guatapé Antioquia Colombia',
+    images: ['/nearby/iglesia-guatape.jpg', '/nearby/zocalos-de-guatape.jpg'],
+    management: { es: 'El templo corresponde a la comunidad parroquial católica y no es una instalación administrada como parque municipal. El Parque Principal que lo rodea sí forma parte del espacio público de Guatapé.', en: 'The church is a Catholic parish place of worship, rather than a municipal park facility. The Main Park surrounding it is part of Guatapé’s public space.' },
+    highlight: { es: 'Compara la fachada y sus torres con las casas bajas de zócalos; desde la plaza se aprecia cómo el templo organiza el espacio urbano tradicional.', en: 'Compare the facade and towers with the lower zócalo-covered buildings; the park reveals the church’s role in the traditional townscape.' },
+    walk: { es: 'Fachada principal → vuelta al Parque Principal → calles de zócalos → Calle del Recuerdo.', en: 'Main facade → loop around Main Park → zócalo streets → Calle del Recuerdo.' },
+    photo: { es: 'La acera opuesta del parque permite fotografiar el conjunto completo sin obstruir el acceso al templo.', en: 'The opposite side of the park frames the whole church without obstructing its entrance.' },
+    access: { es: 'Exterior de acceso libre; interior sujeto a horarios parroquiales y celebraciones religiosas.', en: 'Free exterior viewing; interior access follows parish hours and religious services.' },
+    visitTime: { es: '20–40 minutos', en: '20–40 minutes' },
+  },
+  'malecon-de-guatape': {
+    place: 'Malecón San Juan del Puerto', address: 'Malecón de Guatapé, Guatapé, Antioquia, Colombia',
+    mapQuery: 'Malecón San Juan del Puerto Guatapé Antioquia Colombia',
+    images: ['/nearby/malecon-guatape.jpg', '/nearby/embalse-guatape.jpg'],
+    management: { es: 'El paseo del malecón forma parte del espacio público de Guatapé, bajo gestión municipal. Embarcaderos, restaurantes y excursiones pueden ser operados por terceros con condiciones y tarifas independientes.', en: 'The waterfront promenade is municipal public space. Docks, restaurants and boat excursions may be operated by independent providers with separate conditions and charges.' },
+    highlight: { es: 'El embalse, las embarcaciones y la sucesión de penínsulas muestran cómo la geografía del agua transformó el paisaje del municipio.', en: 'The reservoir, boats and successive peninsulas show how the waterscape reshaped the municipality.' },
+    walk: { es: 'Plazoleta de los Zócalos → Calle del Recuerdo → paseo del malecón → miradores junto al agua.', en: 'Zócalos Plaza → Calle del Recuerdo → waterfront promenade → shoreline viewpoints.' },
+    photo: { es: 'Usa las zonas abiertas de la orilla para encuadrar barcos, montañas y reflejos; evita entrar a muelles de operación privada.', en: 'Use open shoreline viewpoints for boats, hills and reflections; avoid entering privately operated docks.' },
+    access: { es: 'Paseo público gratuito; servicios de navegación y comercios cobran aparte.', en: 'Free public promenade; boat rides and commercial services cost extra.' },
+    visitTime: { es: '45–90 minutos', en: '45–90 minutes' },
+  },
 };
 
 export function mapLink(query: string) {

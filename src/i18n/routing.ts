@@ -15,6 +15,8 @@ export const routing = defineRouting({
     '/calle-del-recuerdo': '/calle-del-recuerdo',
     '/piedra-del-penol': '/piedra-del-penol',
     '/como-llegar-desde-medellin': '/como-llegar-desde-medellin',
+    '/iglesia-nuestra-senora-del-carmen': '/iglesia-nuestra-senora-del-carmen',
+    '/malecon-de-guatape': '/malecon-de-guatape',
   },
 });
 

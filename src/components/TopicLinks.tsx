@@ -19,7 +19,7 @@ export default async function TopicLinks() {
   }
 
   return (
-    <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
+    <section id="explore" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-2"

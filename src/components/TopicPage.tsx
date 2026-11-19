@@ -24,6 +24,22 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
   const isEs = locale === 'es';
   const homeUrl = `${SITE_URL}/${locale}`;
   const topicUrl = `${SITE_URL}/${locale}/${topic.slug}`;
+  const isRock = topic.slug === 'piedra-del-penol';
+  const isTransport = topic.slug === 'como-llegar-desde-medellin';
+  const isChurch = topic.slug === 'iglesia-nuestra-senora-del-carmen';
+  const hoursText = isRock
+    ? (isEs ? 'Horario de acceso fijado por el operador; comprueba la jornada actual antes de subir.' : 'Climbing hours are set by the operator; check the current schedule before ascending.')
+    : isChurch
+      ? (isEs ? 'Interior según horario parroquial y celebraciones; exterior visible desde el parque.' : 'Interior follows parish hours and services; exterior visible from the park.')
+      : isTransport
+        ? (isEs ? 'Salidas según empresa de transporte y fecha de viaje.' : 'Departures vary by transport operator and travel date.')
+        : (isEs ? 'Espacio público al aire libre; negocios y servicios tienen sus propios horarios.' : 'Outdoor public space; shops and services keep their own hours.');
+  const ticketText = isRock
+    ? (isEs ? 'Ascenso de pago; tarifa vigente determinada por la administración privada.' : 'Paid stairway climb; current admission is set by the private operator.')
+    : isTransport
+      ? (isEs ? 'Billete de bus o transporte contratado; confirma el precio al comprar.' : 'Bus fare or hired transport; confirm prices when booking.')
+      : (isEs ? 'Acceso al espacio público gratuito; servicios y actividades privadas se cobran aparte.' : 'Free access to the public area; private activities and services are charged separately.');
+  const routeSteps = detail.walk[locale].split('→').map((step) => step.trim()).filter(Boolean);
 
   const breadcrumbLd = {
     '@context': 'https://schema.org',
@@ -74,6 +90,10 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
             {c.title}
           </h1>
 
+          <p className="text-sm font-semibold tracking-wide uppercase mb-4" style={{ color: 'var(--accent)' }}>
+            {isEs ? 'Patrimonio, recorrido y visita práctica en Guatapé' : 'Heritage, walking routes and practical tips in Guatapé'}
+          </p>
+
           <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>
             {c.intro}
           </p>
@@ -94,6 +114,10 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
             {isEs ? `Ver ${detail.place} en Google Maps` : `Find ${detail.place} on Google Maps`}
           </a>
 
+          <a href={mapLink(detail.mapQuery)} target="_blank" rel="noopener noreferrer" className="inline-flex ml-0 sm:ml-4 underline font-semibold mb-12" style={{ color: 'var(--accent)' }}>
+            {isEs ? 'Consultar reseñas de visitantes' : 'See visitor reviews'}
+          </a>
+
           <section className="rounded-2xl p-6 sm:p-8 mb-12" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
             <p className="text-sm font-bold uppercase tracking-wide mb-3" style={{ color: 'var(--accent)' }}>{isEs ? 'Sobre este lugar' : 'About this place'}</p>
             <h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
@@ -103,6 +127,40 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
             <a href="https://www.municipiodeguatape.gov.co/" target="_blank" rel="noopener noreferrer" className="text-sm underline inline-block mt-4" style={{ color: 'var(--accent)' }}>
               {isEs ? 'Información municipal de Guatapé' : 'Guatapé municipal information'}
             </a>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="font-display text-2xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>
+              {isEs ? 'Información básica para la visita' : 'Essential visitor information'}
+            </h2>
+            <div className="rounded-xl overflow-hidden" style={{ border: '1px solid var(--border-color)' }}>
+              {[
+                [isEs ? 'Lugar' : 'Place', detail.place],
+                [isEs ? 'Ubicación' : 'Location', detail.address],
+                [isEs ? 'Tipo de lugar' : 'Place type', isRock ? (isEs ? 'Mirador natural con acceso privado' : 'Natural viewpoint with private access') : isTransport ? (isEs ? 'Ruta de transporte' : 'Transport route') : isChurch ? (isEs ? 'Templo religioso y patrimonio urbano' : 'Religious landmark and town heritage') : (isEs ? 'Espacio público y paisaje cultural' : 'Public space and cultural landscape')],
+                [isEs ? 'Duración orientativa' : 'Time to allow', detail.visitTime[locale]],
+                [isEs ? 'Horario' : 'Opening hours', hoursText],
+                [isEs ? 'Precio' : 'Admission', ticketText],
+              ].map(([label, value], index) => (
+                <div key={label} className="grid grid-cols-1 sm:grid-cols-[165px_1fr] gap-1 sm:gap-5 p-4" style={{ background: index % 2 ? 'var(--bg-primary)' : 'var(--bg-secondary)', borderBottom: '1px solid var(--border-color)' }}>
+                  <span className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>{label}</span>
+                  <span className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{value}</span>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div className="rounded-xl p-6" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+              <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Horarios y mejores momentos' : 'Opening times and when to visit'}</h2>
+              <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{hoursText}</p>
+              <p className="leading-relaxed mt-3" style={{ color: 'var(--text-secondary)' }}>{isEs ? 'Para fotografiar fachadas y recorrer con más tranquilidad, suele convenir la primera parte del día.' : 'Earlier in the day is often more comfortable for photographing facades and strolling.'}</p>
+            </div>
+            <div className="rounded-xl p-6" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+              <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Entradas y costes' : 'Tickets and costs'}</h2>
+              <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{ticketText}</p>
+              <p className="leading-relaxed mt-3" style={{ color: 'var(--text-secondary)' }}>{detail.access[locale]}</p>
+            </div>
           </section>
 
           <section className="mb-12">
@@ -131,6 +189,18 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
             </section>
           ))}
 
+          <section className="mb-12">
+            <h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Ruta sugerida paso a paso' : 'Step-by-step suggested route'}</h2>
+            <ol className="space-y-4">
+              {routeSteps.map((step, i) => (
+                <li key={i} className="flex gap-4 rounded-xl p-4" style={{ background: 'var(--bg-secondary)' }}>
+                  <span className="flex-none rounded-full w-9 h-9 flex items-center justify-center font-bold" style={{ background: 'var(--accent)', color: 'white' }}>{i + 1}</span>
+                  <span className="leading-relaxed pt-1" style={{ color: 'var(--text-secondary)' }}>{step}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+
           <section className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-5">
             {[
               [isEs ? 'Historia, arquitectura y detalles' : 'History, design and details', detail.highlight[locale]],
@@ -146,6 +216,9 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
           </section>
           <section className="mb-12">
             <h2 className="font-display text-2xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Transporte, alojamiento y ubicación' : 'Transport, accommodation and directions'}</h2>
+            <h3 className="font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Cómo llegar' : 'Getting here'}</h3>
+            <p className="leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>{detail.walk[locale]} {isEs ? 'Desde Medellín, llega a Guatapé por carretera o autobús y utiliza la ubicación indicada para el tramo final.' : 'From Medellín, travel to Guatapé by road or bus, then use the specific location for the final leg.'}</p>
+            <h3 className="font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Dónde alojarse' : 'Where to stay'}</h3>
             <p className="leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
               {isEs
                 ? 'Para el centro de Guatapé, elige un alojamiento que permita recorrer a pie el Parque Principal y el malecón. Para la Piedra del Peñol, comprueba el transporte de ida y vuelta por separado. Comprueba condiciones y precios directamente con cada proveedor.'
@@ -153,6 +226,12 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
             </p>
             <p className="mb-3" style={{ color: 'var(--text-secondary)' }}>{detail.address}</p>
             <a href={mapLink(detail.mapQuery)} target="_blank" rel="noopener noreferrer" className="font-semibold underline" style={{ color: 'var(--accent)' }}>{isEs ? 'Abrir ubicación específica en Google Maps' : 'Open this specific location in Google Maps'}</a>
+          </section>
+
+          <section className="mb-12 rounded-xl p-6" style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}>
+            <h2 className="font-display text-2xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Opiniones de visitantes' : 'Visitor reviews'}</h2>
+            <p className="leading-relaxed mb-3" style={{ color: 'var(--text-secondary)' }}>{isEs ? 'Consulta las opiniones y fotografías más recientes directamente en la ficha del lugar. No mostramos una puntuación sin una fecha y un recuento verificables.' : 'Check the latest reviews and visitor photos directly on the location listing. No numerical rating is shown without a verifiable date and review count.'}</p>
+            <a href={mapLink(detail.mapQuery)} target="_blank" rel="noopener noreferrer" className="font-semibold underline" style={{ color: 'var(--accent)' }}>{isEs ? 'Ver opiniones en Google Maps' : 'Read reviews on Google Maps'}</a>
           </section>
 
           <section className="mb-10">
