@@ -31,6 +31,20 @@ export default async function HomePage({
       { '@type': 'ListItem', position: 1, name: 'Guatapé', item: homeUrl },
     ],
   };
+  const attractionLd = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristAttraction',
+    name: 'Plazoleta de Los Zócalos',
+    url: homeUrl,
+    description: 'Colorful public plaza with painted stairs and traditional zócalos in Guatapé, Colombia.',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Guatapé',
+      addressRegion: 'Antioquia',
+      addressCountry: 'CO',
+    },
+    isAccessibleForFree: true,
+  };
 
   return (
     <>
@@ -39,6 +53,10 @@ export default async function HomePage({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(attractionLd) }}
         />
         <Hero />
         <Intro />

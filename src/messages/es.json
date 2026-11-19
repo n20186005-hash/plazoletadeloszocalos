@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plazoleta de Los Zócalos en Guatapé | Cómo Llegar y Qué Ver",
-    "description": "Visita la Plazoleta de Los Zócalos en Guatapé: escaleras de colores, fotos, entrada gratuita, ubicación, cómo llegar y consejos para tu visita."
+    "title": "Guatapé: Plazoleta de los Zócalos | Qué ver y cómo llegar",
+    "description": "Descubre la Plazoleta de los Zócalos de Guatapé, Colombia: escaleras de colores, fachadas pintadas, entrada libre, mapa, fotos y lugares cercanos que visitar."
   },
   "header": {
     "siteName": "Plazoleta de Los Zócalos",
@@ -67,7 +67,7 @@
       {
         "id": "steps",
         "title": "Las Escaleras de Colores y los Relieves",
-        "content": "Lo más distintivo de la plaza es su escalera pintada (escaleras de colores) y los relieves tradicionales de zócalos tallados y pintados en la parte baja de los edificios que la rodean. Estos paneles representan escenas locales, oficios familiares, motivos religiosos y la vida cotidiana de Guatapé. Como el artwork está a la altura de la vista, la plazoleta es ideal para observar el oficio de cerca y fotografiar los colores sin las multitudes de la plaza principal."
+        "content": "Lo más distintivo de la plaza es su escalera pintada (escaleras de colores) y los relieves tradicionales de zócalos tallados y pintados en la parte baja de los edificios que la rodean. Estos paneles representan escenas locales, oficios familiares, motivos religiosos y la vida cotidiana de Guatapé. Como las obras están a la altura de la vista, la plazoleta es ideal para observar el oficio de cerca y fotografiar los colores sin las multitudes de la plaza principal."
       },
       {
         "id": "community",
@@ -347,6 +347,16 @@
   "officialManagement": {
     "title": "Acerca de la Plazoleta de Los Zócalos",
     "text": "La Plazoleta de Los Zócalos es una plaza cultural en Guatapé, Antioquia, Colombia. Como un espacio público gestionado por el gobierno local, es un lugar importante para exhibir las tradiciones culturales zócalos de Guatapé y la vida comunitaria."
+  },
+  "topicUi": {
+    "explore": "Explorar", "exploreTitle": "Lugares cercanos y rutas de Guatapé", "exploreIntro": "Profundiza en lo que rodea a la Plazoleta de Los Zócalos.",
+    "home": "Inicio", "related": "Sigue explorando Guatapé", "notice": "Los precios, horarios y la disponibilidad pueden cambiar. Confirma los detalles en los canales oficiales antes de tu visita.",
+    "tagline": "Patrimonio, recorrido y visita práctica en Guatapé", "location": "Ubicación", "duration": "Tiempo recomendado", "access": "Acceso", "viewMap": "Ver este lugar en Google Maps", "reviewsLink": "Consultar reseñas de visitantes",
+    "about": "Sobre este lugar", "manager": "¿Quién gestiona este espacio?", "municipal": "Información municipal de Guatapé", "essentials": "Información básica para la visita", "place": "Lugar", "type": "Tipo de lugar", "time": "Duración orientativa", "hours": "Horario", "price": "Precio",
+    "rockType": "Mirador natural con acceso privado", "transportType": "Ruta de transporte", "churchType": "Templo religioso y patrimonio urbano", "publicType": "Espacio público y paisaje cultural",
+    "rockHours": "Horario de acceso fijado por el operador; comprueba la jornada actual antes de subir.", "churchHours": "Interior según horario parroquial y celebraciones; exterior visible desde el parque.", "transportHours": "Salidas según empresa de transporte y fecha de viaje.", "publicHours": "Espacio público al aire libre; negocios y servicios tienen sus propios horarios.",
+    "rockPrice": "Ascenso de pago; tarifa vigente determinada por la administración privada.", "transportPrice": "Billete de bus o transporte contratado; confirma el precio al comprar.", "publicPrice": "Acceso al espacio público gratuito; servicios y actividades privadas se cobran aparte.",
+    "bestTime": "Horarios y mejores momentos", "morning": "Para fotografiar fachadas y recorrer con más tranquilidad, suele convenir la primera parte del día.", "tickets": "Entradas y costes", "photos": "Imágenes del lugar", "view": "vista", "history": "Historia, arquitectura y detalles", "walk": "Ruta recomendada", "photoSpots": "Dónde hacer fotos", "planning": "Cómo organizar la visita", "steps": "Ruta sugerida paso a paso", "transport": "Transporte, alojamiento y ubicación", "gettingHere": "Cómo llegar", "fromMedellin": "Desde Medellín, llega a Guatapé por carretera o autobús y utiliza la ubicación indicada para el tramo final.", "lodging": "Dónde alojarse", "lodgingIntro": "Para el centro de Guatapé, elige un alojamiento que permita recorrer a pie el Parque Principal y el malecón. Para la Piedra del Peñol, comprueba el transporte de ida y vuelta por separado. Comprueba condiciones y precios directamente con cada proveedor.", "openLocation": "Abrir ubicación específica en Google Maps", "visitorReviews": "Opiniones de visitantes", "reviewNotice": "Consulta las opiniones y fotografías más recientes directamente en la ficha del lugar. No mostramos una puntuación sin una fecha y un recuento verificables.", "readReviews": "Ver opiniones en Google Maps", "faq": "Preguntas frecuentes", "languageSwitch": "Cambiar idioma"
   },
   "cookieSettings": {
     "title": "Configuración de Cookies",

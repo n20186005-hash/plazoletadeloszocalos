@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plazoleta de Los Zócalos, Guatapé | Photos & Visitor Guide",
-    "description": "Explore the colorful Plazoleta de Los Zócalos in Guatapé, Colombia. See the painted steps, photo spots, free entry information, location and visiting tips."
+    "title": "Guatapé, Colombia: Plazoleta de los Zócalos | Visitor Guide",
+    "description": "Visiting Guatapé, Colombia? Explore Plazoleta de los Zócalos, its colorful steps and painted façades. Find a map, photo spots, free access and nearby attractions."
   },
   "header": {
     "siteName": "Plazoleta de Los Zócalos",
@@ -347,6 +347,16 @@
   "officialManagement": {
     "title": "About Plazoleta de Los Zócalos",
     "text": "Plazoleta de Los Zócalos is a cultural plaza in Guatapé, Antioquia, Colombia. As a public space managed by the local government, it is an important venue for displaying Guatapé's zócalos cultural traditions and community life."
+  },
+  "topicUi": {
+    "explore": "Explore", "exploreTitle": "Nearby sights and Guatapé routes", "exploreIntro": "Go deeper into what surrounds Plazoleta de Los Zócalos.",
+    "home": "Home", "related": "Keep exploring Guatapé", "notice": "Prices, hours and availability can change. Confirm the details through official channels before your visit.",
+    "tagline": "Heritage, walking routes and practical tips in Guatapé", "location": "Location", "duration": "Suggested time", "access": "Access", "viewMap": "Find this place on Google Maps", "reviewsLink": "See visitor reviews",
+    "about": "About this place", "manager": "Who manages this place?", "municipal": "Guatapé municipal information", "essentials": "Essential visitor information", "place": "Place", "type": "Place type", "time": "Time to allow", "hours": "Opening hours", "price": "Admission",
+    "rockType": "Natural viewpoint with private access", "transportType": "Transport route", "churchType": "Religious landmark and town heritage", "publicType": "Public space and cultural landscape",
+    "rockHours": "Climbing hours are set by the operator; check the current schedule before ascending.", "churchHours": "Interior follows parish hours and services; exterior visible from the park.", "transportHours": "Departures vary by transport operator and travel date.", "publicHours": "Outdoor public space; shops and services keep their own hours.",
+    "rockPrice": "Paid stairway climb; current admission is set by the private operator.", "transportPrice": "Bus fare or hired transport; confirm prices when booking.", "publicPrice": "Free access to the public area; private activities and services are charged separately.",
+    "bestTime": "Opening times and when to visit", "morning": "Earlier in the day is often more comfortable for photographing facades and strolling.", "tickets": "Tickets and costs", "photos": "Photos of the place", "view": "view", "history": "History, design and details", "walk": "Suggested walking route", "photoSpots": "Best photo viewpoints", "planning": "Planning your visit", "steps": "Step-by-step suggested route", "transport": "Transport, accommodation and directions", "gettingHere": "Getting here", "fromMedellin": "From Medellín, travel to Guatapé by road or bus, then use the specific location for the final leg.", "lodging": "Where to stay", "lodgingIntro": "For central Guatapé, look for accommodation within walking distance of the Main Park and waterfront. For El Peñol Rock, arrange separate return transport. Check availability and prices directly with each provider.", "openLocation": "Open this specific location in Google Maps", "visitorReviews": "Visitor reviews", "reviewNotice": "Check the latest reviews and visitor photos directly on the location listing. No numerical rating is shown without a verifiable date and review count.", "readReviews": "Read reviews on Google Maps", "faq": "Frequently asked questions", "languageSwitch": "Switch language"
   },
   "cookieSettings": {
     "title": "Cookie Settings",

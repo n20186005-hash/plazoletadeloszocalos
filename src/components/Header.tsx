@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 
 export default function Header() {
   const t = useTranslations('header');
+  const topicT = useTranslations('topicUi');
   const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
 
@@ -36,7 +37,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-6">
           {locale !== 'zh' && (
             <a href={`/${locale}/#explore`} className="text-sm font-medium transition-colors" style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}>
-              {locale === 'es' ? 'Explorar' : 'Explore'}
+              {topicT('explore')}
             </a>
           )}
           {(['gallery', 'reviews', 'map'] as const).map((section) => (

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plazoleta de Los Zócalos | 哥伦比亚瓜塔佩的文化广场",
-    "description": "探索 Plazoleta de Los Zócalos，位于哥伦比亚安蒂奥基亚省瓜塔佩的文化广场，感受当地的传统与社区生活。"
+    "title": "哥伦比亚瓜塔佩彩绘广场｜Plazoleta de los Zócalos 游览指南",
+    "description": "探索哥伦比亚瓜塔佩彩绘广场：彩色阶梯、特色墙脚彩绘、拍照机位、免费参观方式、地图导航及周边景点游览建议。"
   },
   "header": {
     "siteName": "Plazoleta de Los Zócalos",
@@ -35,7 +35,7 @@
       "items": [
         "🏛️ 文化广场：瓜塔佩当地重要的公共集会和文化活动空间。",
         "🎨 Zócalos 艺术：广场周边建筑展示着瓜塔佩标志性的彩色外墙装饰艺术。",
-        "👥 社区生活：感受当地居民的日常生活和社交活动，体验 authentic 的哥伦比亚小镇生活。",
+        "👥 社区生活：感受当地居民的日常生活和社交活动，体验原汁原味的哥伦比亚小镇生活。",
         "📸 摄影胜地：广场及周边的 zócalos 装饰是摄影爱好者的理想取景地。"
       ]
     }
@@ -116,7 +116,7 @@
     "winterTime": "早晨光线柔和适合拍照，傍晚可欣赏日落",
     "warning": "💡 气候提示",
     "warningTime": "瓜塔佩全年气候温和、如春，白天气温通常舒适宜人，适合步行游览。清晨与傍晚最为惬意；建议携带一件薄外套、墨镜与防晒霜，雨季备好雨具。",
-    "tip": "广场周边有许多当地小吃摊和咖啡馆，可以品尝 authentic 的哥伦比亚美食。"
+    "tip": "广场周边有许多当地小吃摊和咖啡馆，可以品尝地道的哥伦比亚美食。"
   },
   "tickets": {
     "title": "注意事项",
@@ -347,6 +347,16 @@
   "officialManagement": {
     "title": "关于 Plazoleta de Los Zócalos",
     "text": "Plazoleta de Los Zócalos 是哥伦比亚安蒂奥基亚省瓜塔佩的一处文化广场，作为公共空间由当地政府管理，是展示瓜塔佩 zócalos 文化传统和社区生活的重要场所。"
+  },
+  "topicUi": {
+    "explore": "周边景点", "exploreTitle": "瓜塔佩周边景点与游览路线", "exploreIntro": "从彩绘广场出发，深入了解瓜塔佩的街道、文化与湖滨风景。",
+    "home": "首页", "related": "继续探索瓜塔佩", "notice": "价格、开放时间及服务可能调整，出发前请查阅官方渠道的最新信息。",
+    "tagline": "瓜塔佩历史、步行路线与实用游览指南", "location": "位置", "duration": "建议停留", "access": "参观方式", "viewMap": "在 Google 地图查看地点", "reviewsLink": "查看游客评价",
+    "about": "关于这个地点", "manager": "管理主体", "municipal": "瓜塔佩市政府信息", "essentials": "基本游览资料", "place": "景点", "type": "地点类型", "time": "建议时间", "hours": "开放时间", "price": "门票费用",
+    "rockType": "私人经营的自然观景点", "transportType": "交通路线", "churchType": "宗教建筑与城市文化遗产", "publicType": "公共空间与文化景观",
+    "rockHours": "巨岩登山时间由经营方安排，出发前请核对当天公告。", "churchHours": "教堂内部依堂区活动和礼拜时间开放，外部可从公园观赏。", "transportHours": "班次随营运公司及日期调整。", "publicHours": "户外公共空间可自由游览，周边商家另有营业时间。",
+    "rockPrice": "登山需购票，实际票价由私人经营方公布。", "transportPrice": "巴士或包车需要付费，购票前确认价格。", "publicPrice": "公共空间免费，私人服务及活动另行收费。",
+    "bestTime": "开放时间与建议时段", "morning": "上午通常更适合拍摄建筑立面与步行游览。", "tickets": "门票与费用", "photos": "景点实景照片", "view": "景观", "history": "历史、建筑与观察重点", "walk": "推荐步行路线", "photoSpots": "拍照机位", "planning": "游览建议", "steps": "分步游览路线", "transport": "交通、住宿与定位", "gettingHere": "如何抵达", "fromMedellin": "从麦德林可乘巴士或沿公路前往瓜塔佩，最后一段请参考该地点的独立地图定位。", "lodging": "住宿建议", "lodgingIntro": "在瓜塔佩镇中心住宿便于步行前往主广场及湖滨；前往佩尼奥尔巨岩需另行安排往返交通。住宿价格及供应情况以经营者公布的信息为准。", "openLocation": "打开该地点的独立 Google 地图", "visitorReviews": "游客评价", "reviewNotice": "请通过地点页面查看最新游客评价和照片。未核实评价数量与同步日期前，不展示数值评分。", "readReviews": "在 Google 地图阅读评价", "faq": "常见问答", "languageSwitch": "切换语言"
   },
   "cookieSettings": {
     "title": "Cookie 设置",

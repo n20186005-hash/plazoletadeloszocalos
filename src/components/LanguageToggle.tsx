@@ -1,6 +1,6 @@
 'use client';
 
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname, routing } from '@/i18n/routing';
 import { useState, useRef, useEffect } from 'react';
 
@@ -12,6 +12,7 @@ const labels: Record<string, string> = {
 
 export default function LanguageToggle() {
   const locale = useLocale();
+  const t = useTranslations('topicUi');
   const pathname = usePathname();
   const router = useRouter();
   const [open, setOpen] = useState(false);
@@ -29,8 +30,10 @@ export default function LanguageToggle() {
 
   const handleLanguageChange = (targetLocale: string) => {
     setOpen(false);
-    // 使用 router.push 直接切换语言
-    router.push(pathname, { locale: targetLocale });
+    // Topic articles have Spanish/English versions only; Chinese returns to a valid home route.
+    const topicPaths = ['que-ver-en-guatape', 'zocalos-de-guatape', 'calle-del-recuerdo', 'piedra-del-penol', 'como-llegar-desde-medellin', 'iglesia-nuestra-senora-del-carmen', 'malecon-de-guatape'];
+    const destination = targetLocale === 'zh' && topicPaths.some((slug) => pathname === `/${slug}`) ? '/' : pathname;
+    router.push(destination, { locale: targetLocale });
   };
 
   return (
@@ -42,7 +45,7 @@ export default function LanguageToggle() {
           background: 'var(--tag-bg)',
           color: 'var(--tag-text)',
         }}
-        aria-label="Switch language"
+        aria-label={t('languageSwitch')}
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="12" cy="12" r="10"/>

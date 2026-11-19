@@ -1,19 +1,10 @@
-import { getLocale } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { TOPICS } from '@/lib/topics';
 import { VISIT_DETAILS } from '@/lib/visit-details';
 
-const heading: Record<string, string> = {
-  es: 'Lugares cercanos y rutas de Guatapé',
-  en: 'Nearby sights and Guatapé routes',
-};
-
-const subheading: Record<string, string> = {
-  es: 'Profundiza en lo que rodea a la Plazoleta de Los Zócalos.',
-  en: 'Go deeper into what surrounds Plazoleta de Los Zócalos.',
-};
-
 export default async function TopicLinks() {
   const locale = await getLocale();
+  const t = await getTranslations('topicUi');
   if (locale !== 'es' && locale !== 'en') {
     return null;
   }
@@ -25,10 +16,10 @@ export default async function TopicLinks() {
           className="font-display text-3xl sm:text-4xl font-semibold mb-2"
           style={{ color: 'var(--text-primary)' }}
         >
-          {heading[locale]}
+          {t('exploreTitle')}
         </h2>
         <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>
-          {subheading[locale]}
+          {t('exploreIntro')}
         </p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
