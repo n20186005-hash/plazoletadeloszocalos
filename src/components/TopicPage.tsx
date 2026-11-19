@@ -1,4 +1,5 @@
 import { TOPICS, SITE_URL, type Topic, type TopicSlug } from '@/lib/topics';
+import { VISIT_DETAILS, mapLink } from '@/lib/visit-details';
 
 type Locale = 'es' | 'en';
 
@@ -19,6 +20,8 @@ const sourceNote: Record<Locale, string> = {
 
 export default function TopicPage({ topic, locale }: { topic: Topic; locale: Locale }) {
   const c = topic[locale];
+  const detail = VISIT_DETAILS[topic.slug];
+  const isEs = locale === 'es';
   const homeUrl = `${SITE_URL}/${locale}`;
   const topicUrl = `${SITE_URL}/${locale}/${topic.slug}`;
 
@@ -75,6 +78,45 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
             {c.intro}
           </p>
 
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-10">
+            {[
+              [isEs ? 'Ubicación' : 'Location', detail.address],
+              [isEs ? 'Tiempo recomendado' : 'Suggested time', detail.visitTime[locale]],
+              [isEs ? 'Acceso' : 'Access', detail.access[locale]],
+            ].map(([label, value]) => (
+              <div key={label} className="rounded-xl p-4" style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}>
+                <p className="text-sm font-semibold mb-2" style={{ color: 'var(--accent)' }}>{label}</p>
+                <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{value}</p>
+              </div>
+            ))}
+          </div>
+          <a href={mapLink(detail.mapQuery)} target="_blank" rel="noopener noreferrer" className="inline-flex rounded-lg px-5 py-3 font-semibold mb-12" style={{ background: 'var(--accent)', color: 'white' }}>
+            {isEs ? `Ver ${detail.place} en Google Maps` : `Find ${detail.place} on Google Maps`}
+          </a>
+
+          <section className="rounded-2xl p-6 sm:p-8 mb-12" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <p className="text-sm font-bold uppercase tracking-wide mb-3" style={{ color: 'var(--accent)' }}>{isEs ? 'Sobre este lugar' : 'About this place'}</p>
+            <h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
+              {isEs ? '¿Quién gestiona este espacio?' : 'Who manages this place?'}
+            </h2>
+            <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{detail.management[locale]}</p>
+            <a href="https://www.municipiodeguatape.gov.co/" target="_blank" rel="noopener noreferrer" className="text-sm underline inline-block mt-4" style={{ color: 'var(--accent)' }}>
+              {isEs ? 'Información municipal de Guatapé' : 'Guatapé municipal information'}
+            </a>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="font-display text-2xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Imágenes del lugar' : 'Photos of the place'}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {detail.images.map((src, i) => (
+                <figure key={src} className="overflow-hidden rounded-xl" style={{ background: 'var(--bg-secondary)' }}>
+                  {/* Images are local copies of location-identified photographs. */}
+                  <img src={src} alt={`${detail.place} — ${isEs ? 'vista' : 'view'} ${i + 1}`} loading="lazy" className="w-full h-56 object-cover" />
+                </figure>
+              ))}
+            </div>
+          </section>
+
           {c.sections.map((section) => (
             <section key={section.id} id={section.id} className="mb-10">
               <h2
@@ -88,6 +130,30 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
               </p>
             </section>
           ))}
+
+          <section className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {[
+              [isEs ? 'Historia, arquitectura y detalles' : 'History, design and details', detail.highlight[locale]],
+              [isEs ? 'Ruta recomendada' : 'Suggested walking route', detail.walk[locale]],
+              [isEs ? 'Dónde hacer fotos' : 'Best photo viewpoints', detail.photo[locale]],
+              [isEs ? 'Cómo organizar la visita' : 'Planning your visit', detail.access[locale]],
+            ].map(([title, body]) => (
+              <div key={title} className="rounded-xl p-5" style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}>
+                <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{title}</h2>
+                <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{body}</p>
+              </div>
+            ))}
+          </section>
+          <section className="mb-12">
+            <h2 className="font-display text-2xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>{isEs ? 'Transporte, alojamiento y ubicación' : 'Transport, accommodation and directions'}</h2>
+            <p className="leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
+              {isEs
+                ? 'Para el centro de Guatapé, elige un alojamiento que permita recorrer a pie el Parque Principal y el malecón. Para la Piedra del Peñol, comprueba el transporte de ida y vuelta por separado. Comprueba condiciones y precios directamente con cada proveedor.'
+                : 'For central Guatapé, look for accommodation within walking distance of the Main Park and waterfront. For El Peñol Rock, arrange separate return transport. Check availability and prices directly with each provider.'}
+            </p>
+            <p className="mb-3" style={{ color: 'var(--text-secondary)' }}>{detail.address}</p>
+            <a href={mapLink(detail.mapQuery)} target="_blank" rel="noopener noreferrer" className="font-semibold underline" style={{ color: 'var(--accent)' }}>{isEs ? 'Abrir ubicación específica en Google Maps' : 'Open this specific location in Google Maps'}</a>
+          </section>
 
           <section className="mb-10">
             <h2

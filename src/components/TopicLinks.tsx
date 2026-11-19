@@ -1,9 +1,10 @@
 import { getLocale } from 'next-intl/server';
 import { TOPICS } from '@/lib/topics';
+import { VISIT_DETAILS } from '@/lib/visit-details';
 
 const heading: Record<string, string> = {
-  es: 'Guías de Guatapé',
-  en: 'Guatapé Guides',
+  es: 'Lugares cercanos y rutas de Guatapé',
+  en: 'Nearby sights and Guatapé routes',
 };
 
 const subheading: Record<string, string> = {
@@ -36,25 +37,14 @@ export default async function TopicLinks() {
             <a
               key={t.slug}
               href={`/${locale}/${t.slug}`}
-              className="group rounded-xl p-5 transition-transform hover:-translate-y-1 hover:shadow-md flex items-center justify-between"
+              className="group rounded-xl overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-md"
               style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
             >
-              <span className="font-medium" style={{ color: 'var(--text-primary)' }}>
-                {t[locale].label}
-              </span>
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                className="group-hover:translate-x-1 transition-transform"
-                style={{ color: 'var(--accent)' }}
-              >
-                <line x1="5" y1="12" x2="19" y2="12" />
-                <polyline points="12 5 19 12 12 19" />
-              </svg>
+              <img src={VISIT_DETAILS[t.slug].images[0]} alt={VISIT_DETAILS[t.slug].place} loading="lazy" className="w-full h-44 object-cover" />
+              <div className="p-5">
+                <span className="font-semibold block mb-2" style={{ color: 'var(--text-primary)' }}>{t[locale].label}</span>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{VISIT_DETAILS[t.slug].visitTime[locale]}</span>
+              </div>
             </a>
           ))}
         </div>
