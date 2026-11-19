@@ -2,6 +2,7 @@ export type TopicSlug =
   | 'que-ver-en-guatape'
   | 'zocalos-de-guatape'
   | 'calle-del-recuerdo'
+  | 'calle-de-las-sombrillas-guatape'
   | 'piedra-del-penol'
   | 'como-llegar-desde-medellin'
   | 'iglesia-nuestra-senora-del-carmen'
@@ -28,6 +29,51 @@ export type Topic = {
 
 export const TOPICS: Topic[] = [
   {
+    slug: 'calle-de-las-sombrillas-guatape',
+    es: {
+      label: 'Calle de las Sombrillas',
+      metaTitle: 'Calle de las Sombrillas Guatapé: ubicación, fotos y ruta',
+      metaDescription: 'Dónde está la Calle de las Sombrillas en Guatapé, cómo llegar desde la Plazoleta de los Zócalos, qué fotografiar y cómo incluirla en un paseo a pie.',
+      title: 'Calle de las Sombrillas de Guatapé',
+      intro: 'Un techo de paraguas de colores sobre una calle empedrada, fachadas con zócalos y pequeños comercios convierten la Calle de las Sombrillas en una parada fotográfica del centro de Guatapé. La zona está vinculada a la Plazoleta de los Zócalos y a la Calle del Recuerdo, pero conviene usar su propio nombre al buscar la ubicación en el mapa.',
+      sections: [
+        { id: 'historia', heading: 'De tradición de zócalos a calle fotográfica', body: 'La identidad visual de Guatapé nació de los relieves y colores que decoran las partes bajas de las casas desde comienzos del siglo XX. El dosel de paraguas es una intervención decorativa más reciente: no debe confundirse con el origen de los zócalos. Observa ambos elementos en un mismo recorrido y distingue el patrimonio de fachada de la decoración suspendida.' },
+        { id: 'arquitectura', heading: 'Fachadas, empedrado y cubierta de paraguas', body: 'Mira hacia arriba para apreciar la repetición de colores en el dosel y después a nivel de la calle para descubrir marcos de puertas, balcones, macetas y zócalos narrativos. La calle reúne comercio y viviendas: respeta puertas, vitrinas y el paso de residentes.' },
+        { id: 'observacion', heading: 'Qué observar de cerca', body: 'Los paneles de los zócalos muestran motivos de oficios, naturaleza y vida local. Compara cómo cambian las figuras de un frente al siguiente. El contraste entre las sombrillas, las paredes pintadas y el adoquín permite varias fotografías diferentes sin salir de la misma calle.' },
+        { id: 'ruta', heading: 'Ruta corta desde el Parque Principal', body: 'Comienza frente a la Iglesia de Nuestra Señora del Carmen, sigue hacia la Plazoleta de los Zócalos, recorre la Calle de las Sombrillas y enlaza con la Calle del Recuerdo. Si tienes más tiempo, continúa hasta el malecón para ver el embalse. Se trata de un paseo por el centro; la Piedra del Peñol exige un traslado distinto.' },
+        { id: 'fotos', heading: 'Tres encuadres para fotografiarla', body: 'Desde un extremo de la vía, coloca el techo de paraguas como línea de fuga; a media calle encuadra un zócalo y las sombrillas en la misma imagen; desde un lateral, captura balcones y plantas sin bloquear el paso. La luz de primera hora ayuda a reducir grupos en el fondo, aunque la colocación de los paraguas puede cambiar.' },
+        { id: 'visita', heading: 'Consejos prácticos y acceso', body: 'Es un espacio de paseo público, sin taquilla para caminar por la calle. Usa calzado cómodo para el empedrado; después de la lluvia puede estar resbaladizo. Las compras y consumiciones en establecimientos cercanos se pagan por separado. No dependas de una instalación decorativa concreta para planificar toda la visita.' },
+      ],
+      faq: [
+        { question: '¿Dónde queda la Calle de las Sombrillas de Guatapé?', answer: 'En el centro histórico, junto al entorno de la Plazoleta de los Zócalos. Busca el nombre específico en Google Maps y confirma el acceso peatonal al llegar.' },
+        { question: '¿Es lo mismo que la Calle del Recuerdo?', answer: 'Son referencias turísticas muy próximas que a veces aparecen asociadas. La Calle del Recuerdo destaca por su memoria y sus fachadas; la Calle de las Sombrillas se busca por su cubierta de paraguas.' },
+        { question: '¿Hay que pagar para hacer fotos?', answer: 'No hay boleto para caminar por el espacio público. Respeta la privacidad y los servicios de comercios privados.' },
+        { question: '¿Cuánto tiempo se necesita?', answer: 'Calcula 20–40 minutos para observar los detalles y tomar fotos; añade tiempo para la Plazoleta y la Calle del Recuerdo.' },
+      ],
+    },
+    en: {
+      label: 'Guatapé Umbrella Street',
+      metaTitle: 'Calle de las Sombrillas, Guatapé: Map, Photos & Walking Route',
+      metaDescription: 'Find Guatapé’s colorful Umbrella Street, see what makes its zócalos and hanging umbrellas special, and follow an easy walk from the main square.',
+      title: 'Calle de las Sombrillas: Guatapé Umbrella Street',
+      intro: 'Colorful umbrellas hanging above a cobbled lane, painted zócalos and small storefronts make Calle de las Sombrillas one of Guatapé’s distinctive photo stops. It sits by the Zócalos Plaza area and near Calle del Recuerdo, but deserves its own place-specific map search and visitor guide.',
+      sections: [
+        { id: 'historia', heading: 'From zócalo heritage to a colorful photo street', body: 'The town’s painted baseboards and relief panels became a visual tradition in the early 20th century. The overhead umbrella display is a much newer decorative feature, not the origin of the zócalo tradition. Look at the street in layers: the older craft at wall level and the more recent color overhead.' },
+        { id: 'arquitectura', heading: 'Cobblestones, facades and the umbrella canopy', body: 'Look up for the repeated umbrella shapes, then down at the painted lower walls. Doors, balconies, flowerpots and reliefs create a compact streetscape. Shops and residences share this space, so leave entrances and the walking lane clear.' },
+        { id: 'observacion', heading: 'Details worth a closer look', body: 'Zócalo panels often depict trades, plants, animals and everyday life. Compare one building with the next to see different subjects and framing techniques. The combination of floating umbrellas and traditional reliefs creates distinct subjects for both wide and close-up photographs.' },
+        { id: 'ruta', heading: 'Easy walking route from Main Park', body: 'Begin at Nuestra Señora del Carmen Church, walk toward Plazoleta de los Zócalos, explore the Umbrella Street area and continue to Calle del Recuerdo. Extend the walk to the waterfront if time allows. El Peñol Rock is outside the compact town center and needs separate transport.' },
+        { id: 'fotos', heading: 'Three useful camera positions', body: 'At one end of the lane, use the umbrella canopy as leading lines. Halfway along, frame relief panels under the umbrellas; from the side, include balconies and planters. Early hours often mean a clearer shot, but installations and pedestrian traffic can change.' },
+        { id: 'visita', heading: 'Access, weather and respectful visits', body: 'Walking the public lane requires no admission ticket. Wear comfortable shoes on uneven cobbles, which can be slippery after rain. Food, shopping and other private services cost extra. Treat the umbrellas as a changeable installation rather than a guaranteed permanent feature.' },
+      ],
+      faq: [
+        { question: 'Where is Guatapé Umbrella Street?', answer: 'It is in the historic center around Plazoleta de los Zócalos. Use the dedicated Calle de las Sombrillas map search and follow pedestrian access signs on arrival.' },
+        { question: 'Is it the same as Calle del Recuerdo?', answer: 'They are neighboring sightseeing references sometimes mentioned together. Calle del Recuerdo is known for heritage facades, while Umbrella Street is identified by its overhead decorations.' },
+        { question: 'Is Umbrella Street free?', answer: 'There is no admission fee for a stroll on the public lane; purchases from nearby shops are separate.' },
+        { question: 'How long should I spend here?', answer: 'Allow roughly 20–40 minutes for details and photos, plus time for the adjacent square and Calle del Recuerdo.' },
+      ],
+    },
+  },
+  {
     slug: 'que-ver-en-guatape',
     es: {
       label: 'Qué ver en Guatapé',
@@ -38,6 +84,11 @@ export const TOPICS: Topic[] = [
       intro:
         'Guatapé, en Antioquia, es mucho más que un pueblo de fachadas pintadas. Con un casco urbano pequeño y caminable, varias horas bastan para recorrer sus rincones más fotogénicos. Esta guía reúne los sitios que no te puedes perder y cómo encadenarlos en una visita.',
       sections: [
+        {
+          id: 'planifica-guatape',
+          heading: 'Guatapé, Colombia: cómo organizar la primera visita',
+          body: 'Guatapé es un municipio del oriente de Antioquia, a orillas del embalse Peñol–Guatapé. Combina un centro de calles caminables y zócalos decorados con excursiones separadas a la Piedra del Peñol. Para una primera visita, elige si dedicarás la mañana al ascenso y la tarde al pueblo, o si prefieres quedarte en sus plazas, calles y malecón. El transporte desde Medellín llega por carretera, con salida habitual desde la Terminal del Norte.',
+        },
         {
           id: 'plaza-principal',
           heading: 'La plaza principal y el parque',
@@ -101,6 +152,11 @@ export const TOPICS: Topic[] = [
       intro:
         'Guatapé, in Antioquia, is far more than a town with painted facades. Its small, walkable center can be explored in a few hours, yet it packs in several of the most photogenic corners in Colombia. This guide brings together the spots you should not miss and how to chain them together.',
       sections: [
+        {
+          id: 'planifica-guatape',
+          heading: 'Guatapé, Colombia: planning your first visit',
+          body: 'Guatapé is a town in eastern Antioquia beside the Peñol–Guatapé Reservoir. Its walkable streets, painted reliefs and waterfront are a different experience from climbing El Peñol Rock outside the center. For one day, consider doing the rock in the morning and the town afterward; if you prefer a gentler visit, focus on the main park, zócalo streets, Umbrella Street and waterfront. Road transport from Medellín commonly starts at the North Bus Terminal.',
+        },
         {
           id: 'plaza-principal',
           heading: 'The main square and park',
@@ -368,9 +424,9 @@ export const TOPICS: Topic[] = [
     slug: 'piedra-del-penol',
     es: {
       label: 'La Piedra del Peñol',
-      metaTitle: 'La Piedra del Peñol: cómo llegar, escalada y mirador',
+      metaTitle: 'Piedra del Peñol, Guatapé: subida, precio y cómo llegar',
       metaDescription:
-        'Guía de La Piedra del Peñol (El Peñol) cerca de Guatapé: ubicación, la escalinata, el mirador 360° y consejos antes de ir.',
+        'Visita la Piedra del Peñol (Peñón de Guatapé): mapa, acceso de pago, subida de unas 740 gradas, vistas al embalse y ruta desde el pueblo.',
       title: 'La Piedra del Peñol',
       intro:
         'La Piedra del Peñol (también llamada El Peñol) es el gran ícono natural de la región: un monólito de roca a pocos kilómetros de Guatapé cuya cima ofrece una de las vistas de 360° más famosas de Colombia.',
@@ -384,6 +440,16 @@ export const TOPICS: Topic[] = [
           id: 'escalinata',
           heading: 'La escalinata',
           body: 'Para subir se recorre una escalinata tallada en la roca (cerca de 740 gradas). El acceso es independiente de la visita al pueblo y requiere su propio boleto.',
+        },
+        {
+          id: 'geologia',
+          heading: 'El monolito y la historia del paisaje',
+          body: 'La Piedra destaca como un gran afloramiento rocoso que sobresale abruptamente del relieve montañoso. La escalera aprovecha una hendidura de la pared; desde la cima se observa cómo el embalse transformó los valles en brazos de agua, islas y penínsulas. El mirador une geología, ingeniería de acceso y paisaje cultural.'
+        },
+        {
+          id: 'seguridad',
+          heading: 'Ascenso: esfuerzo, seguridad y alternativas',
+          body: 'La subida es prolongada y con escalones estrechos en varios tramos. Haz pausas, lleva agua y evita empezar durante una tormenta. Si tienes movilidad limitada o prefieres no ascender, el monolito también se puede contemplar y fotografiar desde los accesos exteriores permitidos. Comprueba las condiciones de entrada con el operador antes de desplazarte.'
         },
         {
           id: 'mirador',
@@ -421,9 +487,9 @@ export const TOPICS: Topic[] = [
     },
     en: {
       label: 'El Peñol Rock',
-      metaTitle: 'El Peñol Rock: how to get there, the climb and the viewpoint',
+      metaTitle: 'Piedra del Peñol, Guatapé: Rock Climb, Tickets & Map',
       metaDescription:
-        'Guide to El Peñol Rock near Guatapé: location, the staircase, the 360° viewpoint and tips before you go.',
+        'Plan a visit to Piedra del Peñol (El Peñón de Guatapé): map, paid entrance, roughly 740 stairs, reservoir viewpoints and transport from town.',
       title: 'El Peñol Rock',
       intro:
         'El Peñol Rock (also called La Piedra del Peñol) is the region’s great natural icon: a rock monolith a few kilometers from Guatapé whose summit offers one of Colombia’s most famous 360° views.',
@@ -437,6 +503,16 @@ export const TOPICS: Topic[] = [
           id: 'escalinata',
           heading: 'The staircase',
           body: 'To go up you climb a staircase carved into the rock (around 740 steps). Access is separate from the town visit and requires its own ticket.',
+        },
+        {
+          id: 'geologia',
+          heading: 'The monolith and the reservoir landscape',
+          body: 'The rock rises sharply above the surrounding hills as a massive outcrop. Its staircase follows a fissure in the face. At the summit, study how the reservoir has turned valley contours into islands, peninsulas and winding inlets. The visit connects the geology of the rock with the engineered climb and a transformed cultural landscape.'
+        },
+        {
+          id: 'seguridad',
+          heading: 'Climbing safely and alternatives to the summit',
+          body: 'The climb is sustained, with narrow steps along parts of the route. Take breaks, bring water and avoid starting in stormy conditions. Travelers who cannot or do not want to climb can still admire and photograph the monolith from permitted exterior areas. Check the operator’s access notices before departure.'
         },
         {
           id: 'mirador',

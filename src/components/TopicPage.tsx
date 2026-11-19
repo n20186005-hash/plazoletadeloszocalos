@@ -50,7 +50,7 @@ export default function TopicPage({ topic, locale }: { topic: Topic; locale: Loc
       name: detail.place,
       address: { '@type': 'PostalAddress', streetAddress: detail.address, addressCountry: 'CO' },
       hasMap: mapLink(detail.mapQuery),
-      image: detail.images.map((src) => `${SITE_URL}${src}`),
+      image: detail.images.map((src) => src.startsWith('https://') ? src : `${SITE_URL}${src}`),
     },
   };
 

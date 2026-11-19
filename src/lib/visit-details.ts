@@ -14,6 +14,33 @@ export type VisitDetail = {
 };
 
 export const VISIT_DETAILS: Record<TopicSlug, VisitDetail> = {
+  'calle-de-las-sombrillas-guatape': {
+    place: 'Calle de las Sombrillas de Guatapé',
+    address: 'Calle de las Sombrillas, sector Plazoleta de los Zócalos, Guatapé, Antioquia, Colombia',
+    mapQuery: 'Calle de las Sombrillas Guatapé Antioquia Colombia',
+    images: ['/nearby/calle-de-las-sombrillas-guatape.jpg'],
+    management: {
+      es: 'La vía y su circulación peatonal forman parte del espacio público bajo la gestión urbana del municipio de Guatapé. Los zócalos de las fachadas pertenecen a inmuebles con sus propios titulares y la instalación de sombrillas puede cambiar con el tiempo.',
+      en: 'The lane and pedestrian circulation form part of Guatapé’s municipal public space. The decorative panels belong to buildings with their own owners, while the overhead umbrella display may change over time.',
+    },
+    highlight: {
+      es: 'Compara la tradición de relieves en la base de las fachadas con el dosel moderno de sombrillas. Observa el color de puertas, balcones, macetas y adoquines.',
+      en: 'Compare traditional reliefs at the base of the buildings with the newer overhead umbrella canopy. Notice doors, balconies, planters and cobblestones.',
+    },
+    walk: {
+      es: 'Parque Principal → Plazoleta de los Zócalos → Calle de las Sombrillas → Calle del Recuerdo → malecón.',
+      en: 'Main Park → Zócalos Plaza → Umbrella Street → Calle del Recuerdo → waterfront.',
+    },
+    photo: {
+      es: 'Desde un extremo encuadra la hilera de sombrillas; desde el centro busca un primer plano de zócalos bajo el dosel. Evita bloquear las puertas.',
+      en: 'Frame the umbrellas from the end of the lane; halfway along, pair a zócalo close-up with the canopy. Keep doorways clear.',
+    },
+    access: {
+      es: 'Calle pública de libre recorrido; adoquines irregulares y posibles suelos mojados. Tiendas y restaurantes tienen sus propias condiciones.',
+      en: 'Free public lane; watch for uneven or wet cobbles. Shops and restaurants have their own opening arrangements.',
+    },
+    visitTime: { es: '20–40 minutos', en: '20–40 minutes' },
+  },
   'que-ver-en-guatape': {
     place: 'Centro histórico de Guatapé', address: 'Parque Principal, Guatapé, Antioquia, Colombia',
     mapQuery: 'Parque Principal Guatapé Antioquia Colombia',

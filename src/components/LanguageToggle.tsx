@@ -31,7 +31,7 @@ export default function LanguageToggle() {
   const handleLanguageChange = (targetLocale: string) => {
     setOpen(false);
     // Topic articles have Spanish/English versions only; Chinese returns to a valid home route.
-    const topicPaths = ['que-ver-en-guatape', 'zocalos-de-guatape', 'calle-del-recuerdo', 'piedra-del-penol', 'como-llegar-desde-medellin', 'iglesia-nuestra-senora-del-carmen', 'malecon-de-guatape'];
+    const topicPaths = ['que-ver-en-guatape', 'zocalos-de-guatape', 'calle-del-recuerdo', 'calle-de-las-sombrillas-guatape', 'piedra-del-penol', 'como-llegar-desde-medellin', 'iglesia-nuestra-senora-del-carmen', 'malecon-de-guatape'];
     const destination = targetLocale === 'zh' && topicPaths.some((slug) => pathname === `/${slug}`) ? '/' : pathname;
     router.push(destination, { locale: targetLocale });
   };
