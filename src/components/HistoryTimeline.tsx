@@ -7,7 +7,7 @@ export default function HistoryTimeline() {
   const messages = useMessages() as any;
 
   // Iterate over the actual number of timeline items defined per locale
-  const items = (messages?.historyTimeline?.items || []).map((_: unknown, i: number) => i);
+  const items: number[] = (messages?.historyTimeline?.items || []).map((_: unknown, i: number) => i);
 
   return (
     <section className="section-padding" style={{ background: 'var(--bg-primary)' }}>
