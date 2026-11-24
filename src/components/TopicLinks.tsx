@@ -1,11 +1,11 @@
 import { getLocale, getTranslations } from 'next-intl/server';
-import { TOPICS } from '@/lib/topics';
-import { VISIT_DETAILS } from '@/lib/visit-details';
+import { allSlugs, listing, type Language } from '@/lib/regional';
+
 
 export default async function TopicLinks() {
   const locale = await getLocale();
   const t = await getTranslations('topicUi');
-  if (locale !== 'es' && locale !== 'en') {
+  if (locale !== 'es' && locale !== 'en' && locale !== 'zh') {
     return null;
   }
 
@@ -24,20 +24,22 @@ export default async function TopicLinks() {
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {TOPICS.map((t) => (
+          {allSlugs.map((slug) => {
+            const entry = listing(slug, locale as Language);
+            return (
             <a
-              key={t.slug}
-              href={`/${locale}/${t.slug}`}
+              key={slug}
+              href={`/${locale}/${slug}`}
               className="group rounded-xl overflow-hidden transition-transform hover:-translate-y-1 hover:shadow-md"
               style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
             >
-              <img src={VISIT_DETAILS[t.slug].images[0]} alt={VISIT_DETAILS[t.slug].place} loading="lazy" className="w-full h-44 object-cover" />
+              <img src={entry.image} alt={entry.name} loading="lazy" className="w-full h-44 object-cover" />
               <div className="p-5">
-                <span className="font-semibold block mb-2" style={{ color: 'var(--text-primary)' }}>{t[locale].label}</span>
-                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{VISIT_DETAILS[t.slug].visitTime[locale]}</span>
+                <span className="font-semibold block mb-2" style={{ color: 'var(--text-primary)' }}>{entry.name}</span>
+                <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{entry.location}</span>
               </div>
             </a>
-          ))}
+          );})}
         </div>
       </div>
     </section>

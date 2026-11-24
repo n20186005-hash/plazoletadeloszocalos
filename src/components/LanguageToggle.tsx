@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale, useTranslations } from 'next-intl';
-import { useRouter, usePathname, routing } from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
 import { useState, useRef, useEffect } from 'react';
 
 const labels: Record<string, string> = {
@@ -13,8 +13,6 @@ const labels: Record<string, string> = {
 export default function LanguageToggle() {
   const locale = useLocale();
   const t = useTranslations('topicUi');
-  const pathname = usePathname();
-  const router = useRouter();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -30,10 +28,9 @@ export default function LanguageToggle() {
 
   const handleLanguageChange = (targetLocale: string) => {
     setOpen(false);
-    // Topic articles have Spanish/English versions only; Chinese returns to a valid home route.
-    const topicPaths = ['que-ver-en-guatape', 'zocalos-de-guatape', 'calle-del-recuerdo', 'calle-de-las-sombrillas-guatape', 'piedra-del-penol', 'como-llegar-desde-medellin', 'iglesia-nuestra-senora-del-carmen', 'malecon-de-guatape'];
-    const destination = targetLocale === 'zh' && topicPaths.some((slug) => pathname === `/${slug}`) ? '/' : pathname;
-    router.push(destination, { locale: targetLocale });
+    const parts = window.location.pathname.split('/');
+    parts[1] = targetLocale;
+    window.location.assign(parts.join('/') + window.location.search + window.location.hash);
   };
 
   return (

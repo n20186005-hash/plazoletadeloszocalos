@@ -1,0 +1,282 @@
+{
+  "museum": {
+    "es": {
+      "kind": "Museo y colección",
+      "hours": "Consulta la recepción para conocer las salas abiertas, la última admisión y las visitas de grupo.",
+      "price": "No se ha confirmado una tarifa vigente para la colección. Pregunta en recepción antes de entrar o reservar visita guiada.",
+      "access": "Comprueba con recepción si hay desniveles entre la calle y las salas."
+    },
+    "en": {
+      "kind": "Museum and collection",
+      "hours": "Contact reception for open galleries, last entry and arrangements for groups.",
+      "price": "No current admission price has been confirmed for the collection. Ask reception before entering or booking a guide.",
+      "access": "Check with reception about changes of level between the street and the galleries."
+    },
+    "zh": {
+      "kind": "博物馆与馆藏",
+      "hours": "向接待处确认当天开放展室、最后入馆时间和团体安排。",
+      "price": "目前没有核实到馆藏参观的现行票价。进馆或预约讲解前向接待处询价。",
+      "access": "从街面到展室是否有高差，可在预约时向馆方确认。"
+    }
+  },
+  "park": {
+    "es": {
+      "kind": "Parque recreativo",
+      "hours": "Confirma con la administración la apertura del recinto y de sus instalaciones antes de desplazarte.",
+      "price": "La tarifa del recinto no está confirmada. Pregunta por separado por entradas y actividades comerciales.",
+      "access": "El acceso a los recorridos y servicios depende de las zonas habilitadas ese día."
+    },
+    "en": {
+      "kind": "Recreation park",
+      "hours": "Confirm opening of the grounds and individual facilities with park staff before travelling.",
+      "price": "The current grounds admission charge is unconfirmed. Ask separately about entry and commercial activities.",
+      "access": "Day-to-day access depends on the paths and facilities open to visitors."
+    },
+    "zh": {
+      "kind": "游憩园区",
+      "hours": "出发前向园区确认主入口和独立设施的开放时段。",
+      "price": "尚未确认园区现行票价，入园和商业活动应分别询价。",
+      "access": "步道和附属设施以当日允许进入的范围为准。"
+    }
+  },
+  "square": {
+    "es": {
+      "kind": "Espacio urbano de uso público",
+      "hours": "Programa el paseo con luz natural. Los actos públicos pueden ocupar parte del espacio; tiendas y recintos vecinos tienen horario propio.",
+      "price": "El paseo por el espacio público no requiere entrada. Compras y consumos se pagan en cada local.",
+      "access": "Utiliza los pasos peatonales y deja libres los accesos a edificios y comercios."
+    },
+    "en": {
+      "kind": "Public town space",
+      "hours": "Plan the walk in daylight. Events can occupy part of the space, and adjoining shops and buildings keep their own hours.",
+      "price": "Walking through the public space requires no ticket. Pay individual businesses for purchases or refreshments.",
+      "access": "Use pedestrian crossings and keep entrances to shops and public buildings clear."
+    },
+    "zh": {
+      "kind": "公共街区或广场",
+      "hours": "建议白天步行。公共活动可能占用局部空间，周边建筑与商店另有开放时间。",
+      "price": "公共空间步行不需门票，店内购物和餐饮另付。",
+      "access": "从人行出入口通行，给商店、住宅和公共建筑的门口留出空间。"
+    }
+  },
+  "church": {
+    "es": {
+      "kind": "Templo católico",
+      "hours": "La apertura interior depende de la parroquia y del culto. Confirma el acceso antes de una visita de arte o arquitectura.",
+      "price": "No hay tarifa turística vigente verificada. Consulta al personal si se trata de visita con guía o de un concierto.",
+      "access": "Durante el culto observa desde el exterior y consulta antes de fotografiar dentro."
+    },
+    "en": {
+      "kind": "Catholic church",
+      "hours": "The parish opens the interior around worship. Confirm access before making a special visit for art or architecture.",
+      "price": "A current visitor fee has not been verified. Ask staff about guided visits or special concert admission.",
+      "access": "During worship view the building from outside. Ask before taking photographs indoors."
+    },
+    "zh": {
+      "kind": "天主教堂",
+      "hours": "内部随堂区礼仪开放。专程看艺术品或建筑内部时，出发前先向堂区确认。",
+      "price": "未核实到现行旅游参观价格。导览或音乐会是否收费应向现场确认。",
+      "access": "礼仪期间从外面观看，进堂拍照先征求同意。"
+    }
+  },
+  "monastery": {
+    "es": {
+      "kind": "Monasterio benedictino",
+      "hours": "Consulta a la comunidad por la misa dominical; la hospedería y la tienda tienen atención separada.",
+      "price": "Para alojamiento o retiros solicita condiciones directamente al monasterio antes de viajar.",
+      "access": "Respeta la clausura y recorre únicamente el acceso público a la capilla."
+    },
+    "en": {
+      "kind": "Benedictine monastery",
+      "hours": "Ask the community about Sunday Mass. Guesthouse and shop access follow separate arrangements.",
+      "price": "For a stay or retreat request current charges and conditions directly from the monastery.",
+      "access": "Respect the enclosure and follow only the public route to the chapel."
+    },
+    "zh": {
+      "kind": "本笃会修道院",
+      "hours": "主日弥撒应向会院核对时间，客舍与商店分别接待。",
+      "price": "住宿或静修费用直接向修道院预订时查询。",
+      "access": "遵守隐修区边界，仅沿开放路线前往小堂。"
+    }
+  },
+  "dam": {
+    "es": {
+      "kind": "Infraestructura hidroeléctrica",
+      "hours": "No hay horario turístico garantizado para el vertedero. Consulta los avisos de EPM y las condiciones del mirador.",
+      "price": "No se ha verificado entrada para visitar las instalaciones; observar desde un acceso autorizado no equivale a una visita técnica.",
+      "access": "La descarga puede cambiar. No entres al canal ni cruces barreras."
+    },
+    "en": {
+      "kind": "Hydroelectric spillway",
+      "hours": "The spillway has no guaranteed visitor schedule. Check EPM notices and whether the viewpoint is accessible.",
+      "price": "No admission arrangement for the plant has been verified. A view from an authorised access point does not include a technical tour.",
+      "access": "Discharge can change. Keep out of the channel and behind barriers."
+    },
+    "zh": {
+      "kind": "水电泄洪设施",
+      "hours": "泄洪设施没有可保证的旅游开放时段，应留意 EPM 公告和观景点当日通行情况。",
+      "price": "未核实到内部参观票务，从允许停留的位置观看不包含设施参观。",
+      "access": "泄流量会变化，禁止进入水道或越过护栏。"
+    }
+  },
+  "cross": {
+    "es": {
+      "kind": "Memorial sobre el embalse",
+      "hours": "El mirador, las salidas en lancha y la misa conmemorativa del 6 de enero tienen horarios independientes.",
+      "price": "La observación desde tierra y el servicio en lancha son distintos. Pide precio total y duración al operador antes de embarcar.",
+      "access": "El memorial está en el agua; acuerda punto de embarque y retorno."
+    },
+    "en": {
+      "kind": "Reservoir memorial",
+      "hours": "Lookout access, boat departures and the January 6 memorial Mass follow separate schedules.",
+      "price": "The land view and the boat trip are separate. Ask the operator for total fare and duration before boarding.",
+      "access": "The memorial is offshore. Confirm boarding and return points with the skipper."
+    },
+    "zh": {
+      "kind": "水上纪念地",
+      "hours": "岸上观景点、游船和1月6日纪念弥撒各有时段。",
+      "price": "岸上观景与乘船分别安排，登船前问清总价和往返时长。",
+      "access": "十字架位于水中，应与船方约定上下船地点。"
+    }
+  },
+  "shrine": {
+    "es": {
+      "kind": "Santuario rural",
+      "hours": "Confirma con los custodios el horario de culto y el acceso por carretera antes de ir a El Marial.",
+      "price": "No hay tarifa vigente de visita confirmada. Acuerda aparte el transporte rural de ida y regreso.",
+      "access": "Utiliza el acceso señalado al santuario; las rocas no forman un itinerario de escalada."
+    },
+    "en": {
+      "kind": "Rural shrine",
+      "hours": "Confirm worship times and road access with the custodians before travelling to El Marial.",
+      "price": "A current visitor fee is unconfirmed. Arrange rural transport and the return fare separately.",
+      "access": "Follow the marked approach to the shrine. The rocks are outside the visitor walking route."
+    },
+    "zh": {
+      "kind": "乡村圣地",
+      "hours": "前往埃尔马里亚尔前，与看护方核对礼拜时段和乡村道路情况。",
+      "price": "未核实到现行参观费，乡村往返交通另行议价。",
+      "access": "沿标明的入口走到圣龛，游览不用攀岩。"
+    }
+  },
+  "bridge": {
+    "es": {
+      "kind": "Puente peatonal",
+      "hours": "Cruza de día para ver el río y consulta en el pueblo si hay cierre por obras o crecida.",
+      "price": "El cruce peatonal no requiere billete.",
+      "access": "Deja libre el tablero para los vecinos y toma las fotos desde los extremos."
+    },
+    "en": {
+      "kind": "Pedestrian crossing",
+      "hours": "Cross in daylight to see the river. Ask locally about closures for high water or repair work.",
+      "price": "No ticket is needed for the public foot crossing.",
+      "access": "Keep the deck clear for residents and take photographs from the ends."
+    },
+    "zh": {
+      "kind": "人行桥",
+      "hours": "白天能看清河道，涨水或维修时应在镇内确认通行情况。",
+      "price": "步行过桥不需购票。",
+      "access": "桥面留给居民通行，可在两端停留取景。"
+    }
+  },
+  "bank": {
+    "es": {
+      "kind": "Paseo junto al agua",
+      "hours": "Haz el recorrido con luz de día. El estado del agua y el mantenimiento pueden afectar tramos del sendero.",
+      "price": "No se requiere entrada para el paseo público. Los servicios en edificios y embarcaderos son independientes.",
+      "access": "Permanece en el paseo habilitado y deja espacio a quienes circulan."
+    },
+    "en": {
+      "kind": "Waterside walk",
+      "hours": "Walk in daylight. Water conditions and maintenance can affect individual sections of path.",
+      "price": "There is no ticket for the public walkway. Services in buildings and at piers are separate.",
+      "access": "Remain on the open walkway and leave room for passing traffic."
+    },
+    "zh": {
+      "kind": "滨水步道",
+      "hours": "建议白天步行，水情或养护可能影响部分路段。",
+      "price": "公共步道不需门票，沿途建筑或码头的服务另计。",
+      "access": "只走开放的人行部分，停下来时给行人留出空间。"
+    }
+  },
+  "lake": {
+    "es": {
+      "kind": "Embalse hidroeléctrico",
+      "hours": "Confirma desde San Rafael qué acceso de ribera está autorizado y la hora de recogida; no hay horario único para las fincas.",
+      "price": "No existe una tarifa única verificada para las orillas. Consulta al titular del acceso y al transportista por separado.",
+      "access": "Las instalaciones y terrenos privados tienen límites propios. No des por autorizado el baño ni el acceso por cualquier finca."
+    },
+    "en": {
+      "kind": "Hydroelectric reservoir",
+      "hours": "Confirm an authorised shoreline access and pickup time in San Rafael. Properties around the water have different arrangements.",
+      "price": "There is no verified single shoreline tariff. Ask the access owner and transport provider separately.",
+      "access": "Plant infrastructure and private land have their own boundaries. Confirm permission before entering land or the water."
+    },
+    "zh": {
+      "kind": "水电水库",
+      "hours": "在圣拉斐尔先确认允许进入的岸段和接车时间，不同地块各有安排。",
+      "price": "沿岸没有可核实的统一票价，分别向岸边土地管理者和司机询价。",
+      "access": "机组设施与私人土地有独立边界，进地块或水域前必须确认许可。"
+    }
+  },
+  "rock": {
+    "es": {
+      "kind": "Mirador de roca",
+      "hours": "Consulta la apertura de las escaleras al operador.",
+      "price": "Se paga el ascenso al operador privado.",
+      "access": "Escalera larga y empinada."
+    },
+    "en": {
+      "kind": "Rock viewpoint",
+      "hours": "Check stair opening with the operator.",
+      "price": "Pay the private operator for the climb.",
+      "access": "Long, steep staircase."
+    },
+    "zh": {
+      "kind": "天然巨岩观景点",
+      "hours": "登高楼梯按私人经营方当日公告开放，到售票入口先确认能否登顶。",
+      "price": "登顶须另购门票，在巨岩售票入口确认当日哥伦比亚比索票价。",
+      "access": "楼梯长且陡，需安排休息并留下下行时间。"
+    }
+  },
+  "bus": {
+    "es": {
+      "kind": "Ruta de transporte",
+      "hours": "Consulta la salida al operador en Terminal del Norte.",
+      "price": "Compra el pasaje con el operador.",
+      "access": "Confirma la parada."
+    },
+    "en": {
+      "kind": "Transport route",
+      "hours": "Ask the operator at Terminal del Norte for departures.",
+      "price": "Buy the bus ticket with the operator.",
+      "access": "Confirm your stop."
+    },
+    "zh": {
+      "kind": "城际公路接驳",
+      "hours": "在麦德林北站向客运公司核对去程与返程班次。",
+      "price": "长途巴士按班次售票，先确认下车点与票价。",
+      "access": "乘车前分别确认巨岩入口与瓜塔佩镇内车站。"
+    }
+  },
+  "house": {
+    "es": {
+      "kind": "Casa histórica privada",
+      "hours": "Confirma el horario del establecimiento antes del viaje a El Morro. El horario del museo urbano no se aplica aquí.",
+      "price": "Pregunta al establecimiento por condiciones de entrada y consumo; el transporte en lancha se paga aparte.",
+      "access": "Consulta el acceso al edificio desde el camino rural."
+    },
+    "en": {
+      "kind": "Privately operated historic house",
+      "hours": "Check the establishment’s opening hours before travelling to El Morro. The town museum has a different schedule.",
+      "price": "Ask the operator about entry and refreshments. Boat transport is separate.",
+      "access": "Confirm access from the rural approach to the building."
+    },
+    "zh": {
+      "kind": "私人经营的历史老宅",
+      "hours": "前往埃尔莫罗前向业者确认营业时段，镇内历史博物馆的时间表不适用于这里。",
+      "price": "先询问入内与消费条件，乘船交通另付。",
+      "access": "进村前确认乡道至建筑的通行情况。"
+    }
+  }
+}

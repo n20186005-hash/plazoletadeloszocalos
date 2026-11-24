@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { TOPIC_SLUGS } from '@/lib/topics';
+import { allSlugs, languages } from '@/lib/regional';
 
 export const dynamic = 'force-static';
 
@@ -21,9 +21,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Long-tail topic guides (Spanish + English)
-  for (const topic of TOPIC_SLUGS) {
-    for (const locale of ['es', 'en'] as const) {
+  // Long-tail topic guides
+  for (const topic of allSlugs) {
+    for (const locale of languages) {
       sitemap.push({
         url: `${baseUrl}/${locale}/${topic}`,
         lastModified: new Date(),

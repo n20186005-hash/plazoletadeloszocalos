@@ -3,74 +3,29 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import TopicPage from '@/components/TopicPage';
-import { getTopic, TOPIC_SLUGS, SITE_URL } from '@/lib/topics';
+import { RegionalPage } from '@/components/RegionalPage';
+import { getTopic, SITE_URL } from '@/lib/topics';
+import { allSlugs, contentFor, languages, type Language } from '@/lib/regional';
 
 export const dynamicParams = false;
-
 export function generateStaticParams() {
-  const locales = ['es', 'en'] as const;
-  const params: { locale: string; topic: string }[] = [];
-  for (const locale of locales) {
-    for (const slug of TOPIC_SLUGS) {
-      params.push({ locale, topic: slug });
-    }
-  }
-  return params;
+  return languages.flatMap(locale=>allSlugs.map(topic=>({locale,topic})));
 }
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string; topic: string }>;
-}): Promise<Metadata> {
-  const { locale, topic } = await params;
-  const t = getTopic(topic);
-  if (!t || (locale !== 'es' && locale !== 'en')) {
-    return {};
-  }
-  const c = t[locale];
-  const selfUrl = `${SITE_URL}/${locale}/${topic}`;
-  const esUrl = `${SITE_URL}/es/${topic}`;
-  const enUrl = `${SITE_URL}/en/${topic}`;
-
-  return {
-    title: c.metaTitle,
-    description: c.metaDescription,
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        es: esUrl,
-        en: enUrl,
-        'x-default': esUrl,
-      },
-    },
-    openGraph: {
-      title: c.metaTitle,
-      description: c.metaDescription,
-      url: selfUrl,
-      siteName: 'Plazoleta de Los Zócalos',
-      locale: locale === 'es' ? 'es_ES' : 'en_US',
-      type: 'article',
-    },
-  };
+type Props = {params:Promise<{locale:string;topic:string}>};
+export async function generateMetadata({params}:Props):Promise<Metadata> {
+  const {locale,topic}=await params;
+  if (!languages.includes(locale as Language)||!allSlugs.includes(topic)) return {};
+  const c=contentFor(topic,locale as Language);
+  const legacy=getTopic(topic)?.[locale as 'es'|'en'];
+  const title=c?.name??legacy?.metaTitle, description=c?.body??legacy?.metaDescription;
+  const url=(lang:string)=>`${SITE_URL}/${lang}/${topic}`;
+  return {title,description,alternates:{canonical:url(locale),languages:{en:url('en'),es:url('es'),zh:url('zh'),'x-default':url('es')}},
+    openGraph:{title,description,url:url(locale),siteName:'Plazoleta de Los Zócalos',type:'article',locale:({es:'es_CO',en:'en_US',zh:'zh_CN'})[locale as Language]}};
 }
-
-export default async function TopicRoute({
-  params,
-}: {
-  params: Promise<{ locale: string; topic: string }>;
-}) {
-  const { locale, topic } = await params;
-  const t = getTopic(topic);
-  if (!t || (locale !== 'es' && locale !== 'en')) {
-    notFound();
-  }
-
-  return (
-    <>
-      <Header />
-      <TopicPage topic={t} locale={locale as 'es' | 'en'} />
-      <Footer />
-    </>
-  );
+export default async function TopicRoute({params}:Props) {
+  const {locale,topic}=await params;
+  const lang=locale as Language;
+  if (!languages.includes(lang)||!allSlugs.includes(topic)) notFound();
+  const c=contentFor(topic,lang);
+  return <><Header solid/><main>{c?<RegionalPage lang={lang} slug={topic}/>:<TopicPage topic={getTopic(topic)!} locale={lang as 'es'|'en'}/>}</main><Footer/></>;
 }
