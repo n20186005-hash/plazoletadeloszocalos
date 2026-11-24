@@ -7,7 +7,6 @@ import { RegionalPage } from '@/components/RegionalPage';
 import { getTopic, SITE_URL } from '@/lib/topics';
 import { allSlugs, contentFor, languages, type Language } from '@/lib/regional';
 
-export const dynamicParams = false;
 export function generateStaticParams() {
   return languages.flatMap(locale=>allSlugs.map(topic=>({locale,topic})));
 }
